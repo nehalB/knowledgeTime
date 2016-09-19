@@ -1,4 +1,6 @@
 <?php
+
+?>
 <!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/WebPage" lang="en-US" prefix="og: http://ogp.me/ns#">
 <head>
@@ -87,7 +89,7 @@ var panelsStyles = {"fullContainer":"body"};
 <script type='text/javascript' src='js/siteorigin-parallax.min.js'></script>
 <link rel='https://api.w.org/' href='http://#.#.com/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://#.#.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://#.#.com/wp-includes/wlwmanifest.xml" /> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://#.#.com/wp-includes/wlwmanifest.xml" />
 <meta name="generator" content="WordPress 4.5.3" />
 <meta name="generator" content="WooCommerce 2.6.2" />
 <link rel='shortlink' href='http://#.#.com/?p=2901' />
@@ -114,7 +116,7 @@ var panelsStyles = {"fullContainer":"body"};
 				<div class="cssload-inner cssload-two"></div>
 				<div class="cssload-inner cssload-three"></div>
 			</div>
-			
+
 	</div>
 <style type="text/css">
     .img-circle {
@@ -125,7 +127,7 @@ var panelsStyles = {"fullContainer":"body"};
   <style type="text/css">
     .whit{
       color: white;
-    } 
+    }
   </style>
   <style type="text/css">
      .round {
@@ -136,7 +138,7 @@ var panelsStyles = {"fullContainer":"body"};
   <style type="text/css">
       .black{
         color: black !important;
-      }  
+      }
       .logsize{
             font-size: 15px !important;
       }
@@ -150,7 +152,7 @@ var panelsStyles = {"fullContainer":"body"};
 
 
 	<header id="masthead" class="site-header affix-top bg-custom-sticky sticky-header header_overlay header_v1" >
-               
+
                <!--End/div#toolbar-->
                <!-- <div class="main-menu"> -->
                <div class="container">
@@ -159,9 +161,9 @@ var panelsStyles = {"fullContainer":"body"};
                         <div class="tm-table">
                            <div class="width-logo table-cell sm-logo">
                               <!-- <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="no-sticky-logo"><img src="logo/logo.png" alt="Education WP" width="153" height="40" /></a>
-                              <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="sticky-logo"><img src="logo/logo.png" alt="Education WP" width="153" height="40" /></a>  -->          
+                              <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="sticky-logo"><img src="logo/logo.png" alt="Education WP" width="153" height="40" /></a>  -->
                               <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="no-sticky-logo"><h4 style="color:white;">Knowledge time</h4></a>
-                              <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="sticky-logo"><h4 style="color:black;">Knowledge time</h4></a>           
+                              <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="sticky-logo"><h4 style="color:black;">Knowledge time</h4></a>
                            </div>
                            <nav class="width-navigation table-cell table-right">
                               <ul class="nav navbar-nav menu-main-menu course ">
@@ -209,7 +211,7 @@ var panelsStyles = {"fullContainer":"body"};
                                                                               <meta itemprop="priceCurrency" content="&#36;" />
                                                                            </div>
                                                                         </div>
-                                                                        <a class="course-readmore" href="#">Read More</a>             
+                                                                        <a class="course-readmore" href="#">Read More</a>
                                                                      </div>
                                                                   </div>
                                                                </div>
@@ -230,7 +232,7 @@ var panelsStyles = {"fullContainer":"body"};
                                        <li  class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#.#.com/event-account/">Event Account</a></li>
                                     </ul>
                                  </li>
-                                 
+
                                  <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="#.#.com/blog/"><span data-hover="Blog">Blog</span></a></li>
                                  <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard"><a href="contact_us.html"><span data-hover="Contact">Contact us</span></a></li>
                                  <!-- <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard"><a href="#.#.com/contact/"><span data-hover="login">login</span></a> -->
@@ -257,7 +259,7 @@ var panelsStyles = {"fullContainer":"body"};
                                           <p> Login with social networks</p>
                                           <a  style='width: 240px !important;padding-top:11px !important;padding-bottom:11px !important;margin-bottom: -1px !important;border-radius: 4px !important;' class='btn btn-block btn-social btn-facebook btn-custom-dec login-button' onClick='moOpenIdLogin("facebook");'> <i style='padding-top:5px !important' class='fa fa-facebook'></i> Facebook</a><a  style='width: 240px !important;padding-top:11px !important;padding-bottom:11px !important;margin-bottom: -1px !important;border-radius: 4px !important;' class='btn btn-block btn-social btn-google btn-custom-dec login-button' onClick='moOpenIdLogin("google");'> <i style='padding-top:5px !important' class='fa fa-google-plus'></i> Google</a><a  style='width: 240px !important;padding-top:11px !important;padding-bottom:11px !important;margin-bottom: -1px !important;border-radius: 4px !important;' class='btn btn-block btn-social btn-twitter btn-custom-dec login-button' onClick='moOpenIdLogin("twitter");'> <i style='padding-top:5px !important' class='fa fa-twitter'></i> Twitter</a><a  style='width: 240px !important;padding-top:11px !important;padding-bottom:11px !important;margin-bottom: -1px !important;border-radius: 4px !important;' class='btn btn-block btn-social btn-linkedin btn-custom-dec login-button' onClick='moOpenIdLogin("linkedin");'> <i style='padding-top:5px !important' class='fa fa-linkedin'></i> LinkedIn</a>
                                        </div>
-                                       <br>        
+                                       <br>
                                        <div class="thim-login">
                                           <h2 class="title">Login with your site account</h2>
                                           <form name="loginform" id="loginform" action="#.#.com/wp-login.php" method="post">
@@ -283,7 +285,7 @@ var panelsStyles = {"fullContainer":"body"};
                               </div>
                            </aside>
                                  </li>
-                                 
+
                                  <li class="menu-right">
                                     <ul>
                                        <li id="courses-searching-2" class="widget widget_courses-searching">
@@ -306,7 +308,7 @@ var panelsStyles = {"fullContainer":"body"};
                                     </ul>
                                  </li>
                               </ul>
-                              <!--</div>-->           
+                              <!--</div>-->
                            </nav>
                            <div class="menu-mobile-effect navbar-toggle" data-effect="mobile-effect">
                               <span class="icon-bar"></span>
@@ -324,7 +326,7 @@ var panelsStyles = {"fullContainer":"body"};
 			<ul class="nav navbar-nav">
 	 <li  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children drop_to_right multicolumn">
                                     <a href="index.html"><span data-hover="Demos">Home</span></a>
-                                    
+
                                  </li>
                                  <li  class="menu-item menu-item-type-custom menu-item-object-custom drop_to_right widget_area">
                                     <a href="#"><span data-hover="Courses">Courses</span></a>
@@ -363,12 +365,12 @@ var panelsStyles = {"fullContainer":"body"};
                                                                         <div class="course-meta">
                                                                            <div class="course-price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
                                                                               <div class="value free-course" itemprop="price" content="Free">
-                                                                                                          
+
                                                                               </div>
                                                                               <meta itemprop="priceCurrency" content="&#36;" />
                                                                            </div>
                                                                         </div>
-                                                                        <a class="course-readmore" href="#">Read More</a>             
+                                                                        <a class="course-readmore" href="#">Read More</a>
                                                                      </div>
                                                                   </div>
                                                                </div>
@@ -404,10 +406,10 @@ var panelsStyles = {"fullContainer":"body"};
                                        <li  class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#.#.com/event-account/">Event Account</a></li>
                                     </ul>
                                  </li>
-                                 
+
                                  <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="#.#.com/blog/"><span data-hover="Blog">Blog</span></a></li>
                                  <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard"><a href="#.#.com/contact/"><span data-hover="Contact">Contact</span></a></li>
-                                 
+
                                  <li class="menu-right">
                                     <ul>
                                        <li id="courses-searching-2" class="widget widget_courses-searching">
@@ -431,7 +433,7 @@ var panelsStyles = {"fullContainer":"body"};
                                  </li>
   </ul>		</nav>
 		<div id="main-content">	<section class="content-area">
-		
+
 	<div class="top_site_main" style="color: #fff;background-image:url(images/include/contact.jpg);">
 				<div class="page-title-wrapper">
 			<div class="banner-wrapper container">
@@ -445,10 +447,10 @@ var panelsStyles = {"fullContainer":"body"};
 			<div class="container">
 				<ul itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList" id="breadcrumbs" class="breadcrumbs"><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="index.html" title="Home"><span itemprop="name">Home</span></a></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><span itemprop="name" title="About Us"> About Us</span></li></ul>			</div>
 		</div>
-    
+
 	<div class="container site-content no-padding-top"><div class="row"><main id="main" class="site-main col-sm-12 full-width">
 
-    
+
 <article id="post-2901" class="post-2901 page type-page status-publish hentry pmpro-has-access">
     <div class="entry-content">
         <div id="pl-2901"><div class="panel-grid" id="pg-2901-0" ><div class="panel-grid-cell" id="pgc-2901-0-0" ><div class="so-panel widget widget_heading panel-first-child panel-last-child" id="panel-2901-0-0-0" data-index="0"><div style="padding: 30px 0px 0px;" class="panel-widget-style" ><div class="thim-widget-heading thim-widget-heading-base"><div class="sc_heading text-center"><h3 class="title">Our Story</h3><p align="justify" class="sub-heading" ><font color="black">We are a bunch of young entrepreneurs, with a vision to change the face of higher education in India by providing world class knowledge for students studying in universities and colleges. Our aim is to provide a platform for attending lectures delivered by top notch professors and Industry experts such students receive cutting edge knowledge of advanced technologies. Our goal is for the young minds to find their calling and achieve the required skill set to survive and grow in a competitive arena
@@ -456,7 +458,7 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
 		<!-- <div class="display-percentage" data-percentage="55000">55000</div><div class="counter-content-container"><div class="counter-box-content">Foreign Followers</div></div></div></div></div></div></div><div class="panel-grid-cell" id="pgc-2901-1-1" ><div class="so-panel widget widget_counters-box panel-first-child panel-last-child" id="panel-2901-1-1-0" data-index="2"><div class="thim-widget-counters-box thim-widget-counters-box-base"><div class="counter-box  about-us" style=""><div class="content-box-percentage">
 		<div class="display-percentage" data-percentage="60">60</div><div class="counter-content-container"><div class="counter-box-content">Certified Teachers</div></div></div></div></div></div></div><div class="panel-grid-cell" id="pgc-2901-1-2" ><div class="so-panel widget widget_counters-box panel-first-child panel-last-child" id="panel-2901-1-2-0" data-index="3"><div class="thim-widget-counters-box thim-widget-counters-box-base"><div class="counter-box  about-us" style=""><div class="content-box-percentage">
 		<div class="display-percentage" data-percentage="2240">2240</div><div class="counter-content-container"><div class="counter-box-content">Students Enrolled</div></div></div></div></div></div></div><div class="panel-grid-cell" id="pgc-2901-1-3" ><div class="so-panel widget widget_counters-box panel-first-child panel-last-child" id="panel-2901-1-3-0" data-index="4"><div class="thim-no-border panel-widget-style" ><div class="thim-widget-counters-box thim-widget-counters-box-base"><div class="counter-box  about-us" style=""><div class="content-box-percentage">
-		<div class="display-percentage" data-percentage="215">215</div><div class="counter-content-container"><div class="counter-box-content">Complete Courses</div></div></div>--></div></div></div></div></div></div><br><br> 
+		<div class="display-percentage" data-percentage="215">215</div><div class="counter-content-container"><div class="counter-box-content">Complete Courses</div></div></div>--></div></div></div></div></div></div><br><br>
 
       <div class="panel-grid" id="pg-2901-3" ><div class="panel-grid-cell" id="pgc-2901-3-0" ><div class="so-panel widget widget_text panel-first-child panel-last-child" id="panel-2901-3-0-0" data-index="7"><h3 class="widget-title">Why KnowledgeTime</h3>			<div class="textwidget"><ul style="list-style-type:disc">
 	                         <li><font color="black">It gives practical based knowledge from the world’s best experts</font></li>
@@ -487,9 +489,9 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
     </div>
 </div>
 <div class="row">
-  
+
   <div class="col-sm-3">
- 
+
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
@@ -507,10 +509,10 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
         <h6 align="center" ><a href="#">Kiran Kuruvinashetti</a></h6>
       </div>
     <!-- end colored -->
- 
+
   </div>
   <div class="col-sm-3">
- 
+
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
@@ -528,10 +530,10 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
         <h6 align="center" ><a href="#">Nehal Bhagat</a></h6>
       </div>
     <!-- end colored -->
- 
+
   </div>
   <div class="col-sm-3">
- 
+
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
@@ -549,10 +551,10 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
         <h6 align="center" ><a href="#">Pankaj Shivhare</a></h6>
       </div>
     <!-- end colored -->
- 
+
   </div>
   <div class="col-sm-3">
- 
+
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
@@ -575,7 +577,7 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
   </div>
 
   <div class="col-sm-3">
- 
+
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
@@ -593,10 +595,10 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
         <h6 align="center" ><a href="#">Lianne Shaoyang Li</a></h6>
       </div>
     <!-- end colored -->
- 
+
   </div>
   <div class="col-sm-3">
- 
+
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
@@ -614,10 +616,10 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
         <h6 align="center" ><a href="#">Hodayasini</a></h6>
       </div>
     <!-- end colored -->
- 
+
   </div>
   <div class="col-sm-3">
- 
+
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
@@ -635,10 +637,10 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
         <h6 align="center" ><a href="#">Anand Kukde</a></h6>
       </div>
     <!-- end colored -->
- 
+
   </div>
   <div class="col-sm-3">
- 
+
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
@@ -658,10 +660,10 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
     <!-- end colored -->
  <br><br><br><br>
   </div>
- 
- 
+
+
   <div class="col-sm-3">
- 
+
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
@@ -679,10 +681,10 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
         <h6 align="center" ><a href="#">Natalia</a></h6>
       </div>
     <!-- end colored -->
- 
+
   </div>
   <div class="col-sm-3">
- 
+
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
@@ -700,10 +702,10 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
         <h6 align="center" ><a href="#">Vinay Paramanand</a></h6>
       </div>
     <!-- end colored -->
- 
+
   </div><br><br>
   <div class="col-sm-3">
- 
+
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
@@ -721,10 +723,10 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
         <h6 align="center" ><a href="#">Gaurav Gowda</a></h6>
       </div>
     <!-- end colored -->
- 
+
   </div>
   <div class="col-sm-3">
- 
+
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
@@ -745,7 +747,7 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
  <br><br><br><br>
   </div>
 <div class="col-sm-3">
- 
+
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
@@ -763,10 +765,10 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
         <h6 align="center" ><a href="#">Lakshman Pawar</a></h6>
       </div>
     <!-- end colored -->
- 
+
   </div>
   <div class="col-sm-3">
- 
+
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
@@ -784,10 +786,10 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
         <h6 align="center" ><a href="#">Nandan</a></h6>
       </div>
     <!-- end colored -->
- 
+
   </div>
   <div class="col-sm-3">
- 
+
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
@@ -805,7 +807,7 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
         <h6 align="center" ><a href="#">Milan meet Kaur</a></h6>
       </div>
     <!-- end colored -->
- 
+
   </div>
 
 
@@ -814,7 +816,7 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
     <!-- end normal -->
 </div>
 </div>
-</article>  
+</article>
 </main></div></div>	</section><br><br><br>
 <footer id="colophon" class="site-footer ">
                   <div class="footer">
@@ -933,10 +935,10 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
                   </div>
                </footer>
                <!-- #colophon -->
-           
+
 		<script type="text/javascript">jQuery(function ($) {
-				
-		
+
+
 			;
 			(function () {
 				var $form = $('#learn-press-checkout');
@@ -948,16 +950,16 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
 					}
 				});
 			})();
-		
-		
+
+
 			});
 		</script>
 				<!-- Memberships powered by Paid Memberships Pro v1.8.9.3.
  -->
-		
-	
-		
-</script><div id="tp_chameleon_list_google_fonts"></div>			<script data-cfasync="false" type="text/javascript">
+
+
+
+</div><div id="tp_chameleon_list_google_fonts"></div>			<script data-cfasync="false" type="text/javascript">
 				window.onload = function () {
 					setTimeout(function () {
 						var body = document.getElementById("thim-body"),
@@ -1012,8 +1014,7 @@ var thim_placeholder = {"login":"Username","password":"Password"};
 <script type='text/javascript' src='js/custom-script-v1.min.js'></script>
 <script type='text/javascript' src='js/wp-embed.min.js'></script>
 
-	
+
 
 	<script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>
-?>
