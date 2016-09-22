@@ -301,7 +301,7 @@ margin-left:0px;
                                  <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="#/blog/"><span data-hover="Blog">Blog</span></a></li>
                                  <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard"><a href="contact_us.html">Contact us</span></a></li>
                                   <li  class="thim-login-popup menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard"><a class="login" href="#">Login</span></a></li>
-                                  
+                                  <li class="logout"
                                  <!-- </div> -->
                                  <div id="thim-popup-login" class="has-shortcode">
                                     <div class="thim-login-container">
