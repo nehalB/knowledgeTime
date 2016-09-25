@@ -1,5 +1,4 @@
-<?php
-?>
+
 <!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/WebPage" lang="en-US" prefix="og: http://ogp.me/ns#">
 <head>
@@ -14,7 +13,7 @@
     var ajaxurl = "http://#.#.com/wp-admin/admin-ajax.php";
     /* ]]> */
   </script>
-  <title>Knowledge Time</title>
+  <title>KnowledgeTime</title>
   <link rel="apple-touch-icon" sizes="180x180" href="logo/favicons/apple-touch-icon.png">
 <link rel="icon" type="image/png" href="logo/favicons/favicon-32x32.png" sizes="32x32">
 <link rel="icon" type="image/png" href="logo/favicons/favicon-16x16.png" sizes="16x16">
@@ -159,15 +158,14 @@ var panelsStyles = {"fullContainer":"body"};
                      <div class="navigation col-sm-12">
                         <div class="tm-table">
                            <div class="width-logo table-cell sm-logo">
-                              <!-- <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="no-sticky-logo"><img src="logo/logo.png" alt="Education WP" width="153" height="40" /></a>
-                              <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="sticky-logo"><img src="logo/logo.png" alt="Education WP" width="153" height="40" /></a>  -->          
-                              <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="no-sticky-logo"><h4 style="color:white;">Knowledge time</h4></a>
-                              <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="sticky-logo"><h4 style="color:black;">Knowledge time</h4></a>           
-                           </div>
+                              <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="no-sticky-logo"><img src="logo/logo-1.png" alt="Education WP" class="logo"></a>
+                              <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="sticky-logo"><img src="logo/logo-2.png" alt="Education WP" class="logo"></a>           
+                             
+                            </div>
                            <nav class="width-navigation table-cell table-right">
                               <ul class="nav navbar-nav menu-main-menu course ">
                                  <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard">
-                                    <a href="index.html"><span data-hover="Home">Home</span></a>
+                                    <a href="index.php"><span data-hover="Home">Home</span></a>
                                   </li>
                                  <li  class="menu-item menu-item-type-custom menu-item-object-custom drop_to_right widget_area">
                                     <a href="#"><span data-hover="Courses">Courses</span></a>
@@ -224,7 +222,7 @@ var panelsStyles = {"fullContainer":"body"};
                                        </li>
                                     </ul>
                                  </li>
-                                  <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="aboutus.html"><span data-hover="About Us">About Us</span></a></li>
+                                  <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="aboutus.php"><span data-hover="About Us">About Us</span></a></li>
                                  <li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children drop_to_right standard">
                                     <a href="#"><span data-hover="Events">Events</span></a>
                                     <ul class="sub-menu" >
@@ -233,7 +231,7 @@ var panelsStyles = {"fullContainer":"body"};
                                  </li>
                                  
                                  <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="#.#.com/blog/"><span data-hover="Blog">Blog</span></a></li>
-                                 <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard"><a href="contact_us.html"><span data-hover="Contact">Contact us</span></a></li>
+                                 <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard"><a href="contact_us.php"><span data-hover="Contact">Contact us</span></a></li>
                                  <!-- <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard"><a href="#.#.com/contact/"><span data-hover="login">login</span></a> -->
                                  <li class="thim-login-popup menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard">
                                  <!-- <a href="#.#.com/contact/"><span data-hover="Contact">log</span></a> -->
@@ -279,7 +277,7 @@ var panelsStyles = {"fullContainer":"body"};
     <nav class="mobile-menu-container mobile-effect">
       <ul class="nav navbar-nav">
           <li  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children drop_to_right multicolumn">
-                                    <a href="index.html"><span data-hover="Demos">Home</span></a>
+                                    <a href="index.php"><span data-hover="Demos">Home</span></a>
                                     
                                  </li>
                                  <li  class="menu-item menu-item-type-custom menu-item-object-custom drop_to_right widget_area">
@@ -351,7 +349,7 @@ var panelsStyles = {"fullContainer":"body"};
                                        <li  class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#">Membership</a></li>
                                        <li  class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#">Gallery</a></li>
                                        <li  class="menu-item menu-item-type-post_type_archive menu-item-object-forum"><a href="#">Forums</a></li>
-                                       <li  class="menu-item menu-item-type-post_type menu-item-object-page"><a href="aboutus.html">About Us</a></li>
+                                       <li  class="menu-item menu-item-type-post_type menu-item-object-page"><a href="aboutus.php">About Us</a></li>
                                     </ul>
                                  </li>
                                  <li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children drop_to_right standard">
@@ -362,7 +360,7 @@ var panelsStyles = {"fullContainer":"body"};
                                  </li>
                                  
                                  <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="#.#.com/blog/"><span data-hover="Blog">Blog</span></a></li>
-                                 <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard"><a href="contact_us.html"><span data-hover="Contact">Contact</span></a></li>
+                                 <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard"><a href="contact_us.php"><span data-hover="Contact">Contact</span></a></li>
                                  
                                  <li class="menu-right">
                                     <ul>
@@ -493,7 +491,7 @@ var panelsStyles = {"fullContainer":"body"};
                                        <div class="so-panel widget widget_black-studio-tinymce widget_black_studio_tinymce panel-first-child" id="panel-w575924cfed45d-0-0-0" data-index="0">
                                           <div class="textwidget">
                                              <div class="thim-footer-location">
-                                                <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="sticky-logo"><h4 style="color:white;">Knowledge time</h4></a>
+                                                <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="sticky-logo"><h4 style="color:white;">KnowledgeTime</h4></a>
                                                 <p class="info"><i class="fa fa-phone"></i><a href="#">(00) 123 456 789</a></p>
                                                 <p class="info">
                                                    <i class="fa fa-envelope"></i>
@@ -524,7 +522,7 @@ var panelsStyles = {"fullContainer":"body"};
                                              <ul id="menu-company" class="menu">
                                                 <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="#"><span data-hover="About Us">About Us</span></a></li>
                                                 <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="#"><span data-hover="Blog">Blog</span></a></li>
-                                                <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="contact_us.html"><span data-hover="Contact">Contact</span></a></li>
+                                                <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="contact_us.php"><span data-hover="Contact">Contact</span></a></li>
                                                 <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="#"><span data-hover="Become a Teacher">Become a Teacher</span></a></li>
                                              </ul>
                                           </div>
@@ -579,7 +577,7 @@ var panelsStyles = {"fullContainer":"body"};
                         <div class="copyright-content">
                            <div class="row">
                               <div class="col-sm-6">
-                                 <p class="text-copyright">© 2016 Knowledge Time. All rights reserved.</p>
+                                 <p class="text-copyright">© 2016 KnowledgeTime. All rights reserved.</p>
                               </div>
                               <div class="col-sm-6 text-right">
                                  <aside id="nav_menu-14" class="widget widget_nav_menu">
@@ -622,7 +620,7 @@ var panelsStyles = {"fullContainer":"body"};
     
   
     
-</section><div id="tp_chameleon_list_google_fonts"></div>      <script data-cfasync="false" type="text/javascript">
+</script><div id="tp_chameleon_list_google_fonts"></div>      <script data-cfasync="false" type="text/javascript">
         window.onload = function () {
           setTimeout(function () {
             var body = document.getElementById("thim-body"),

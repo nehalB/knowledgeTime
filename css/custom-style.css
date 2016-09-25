@@ -10906,7 +10906,7 @@ input[type=checkbox]:checked:before {
 }
 .thim-bg-overlay:before {
     position: absolute;
-    background: rgba(0, 0, 0, .6);
+    background: rgba(208, 199, 230, 0.6);
     left: 0;
     right: 0;
     bottom: 0;
@@ -13080,7 +13080,7 @@ footer#colophon .footer .row aside {
     padding-bottom: 20px
 }
 footer#colophon .footer ul {
-    margin: 0
+    /*margin: 0*/
 }
 footer#colophon .footer ul li {
     margin-bottom: 5px;
@@ -23926,7 +23926,8 @@ form#lostpasswordform p input[type=submit] {
     height: 300px
 }
 #thim-popup-login.has-shortcode .thim-login {
-    width: 50%;
+    /*width: 50%;*/
+    align-items: center;
     padding: 0 30px;
     position: relative;
     float: left;
