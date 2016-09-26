@@ -1,6 +1,4 @@
-<?php
 
-?>
 <!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/WebPage" lang="en-US" prefix="og: http://ogp.me/ns#">
 <head>
@@ -89,7 +87,7 @@ var panelsStyles = {"fullContainer":"body"};
 <script type='text/javascript' src='js/siteorigin-parallax.min.js'></script>
 <link rel='https://api.w.org/' href='http://#.#.com/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://#.#.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://#.#.com/wp-includes/wlwmanifest.xml" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://#.#.com/wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 4.5.3" />
 <meta name="generator" content="WooCommerce 2.6.2" />
 <link rel='shortlink' href='http://#.#.com/?p=2901' />
@@ -116,7 +114,7 @@ var panelsStyles = {"fullContainer":"body"};
 				<div class="cssload-inner cssload-two"></div>
 				<div class="cssload-inner cssload-three"></div>
 			</div>
-
+			
 	</div>
 <style type="text/css">
     .img-circle {
@@ -127,7 +125,7 @@ var panelsStyles = {"fullContainer":"body"};
   <style type="text/css">
     .whit{
       color: white;
-    }
+    } 
   </style>
   <style type="text/css">
      .round {
@@ -138,7 +136,7 @@ var panelsStyles = {"fullContainer":"body"};
   <style type="text/css">
       .black{
         color: black !important;
-      }
+      }  
       .logsize{
             font-size: 15px !important;
       }
@@ -152,7 +150,7 @@ var panelsStyles = {"fullContainer":"body"};
 
 
 	<header id="masthead" class="site-header affix-top bg-custom-sticky sticky-header header_overlay header_v1" >
-
+               
                <!--End/div#toolbar-->
                <!-- <div class="main-menu"> -->
                <div class="container">
@@ -160,15 +158,14 @@ var panelsStyles = {"fullContainer":"body"};
                      <div class="navigation col-sm-12">
                         <div class="tm-table">
                            <div class="width-logo table-cell sm-logo">
-                              <!-- <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="no-sticky-logo"><img src="logo/logo.png" alt="Education WP" width="153" height="40" /></a>
-                              <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="sticky-logo"><img src="logo/logo.png" alt="Education WP" width="153" height="40" /></a>  -->
-                              <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="no-sticky-logo"><h4 style="color:white;">Knowledge time</h4></a>
-                              <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="sticky-logo"><h4 style="color:black;">Knowledge time</h4></a>
-                           </div>
+                              <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="no-sticky-logo"><img src="logo/logo-1.png" alt="Education WP" class="logo"></a>
+                              <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="sticky-logo"><img src="logo/logo-2.png" alt="Education WP" class="logo"></a>           
+                             
+                            </div>
                            <nav class="width-navigation table-cell table-right">
                               <ul class="nav navbar-nav menu-main-menu course ">
                                  <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard">
-                                    <a href="index.html"><span data-hover="Home">Home</span></a>
+                                    <a href="index.php"><span data-hover="Home">Home</span></a>
                                   </li>
                                  <li  class="menu-item menu-item-type-custom menu-item-object-custom drop_to_right widget_area">
                                     <a href="#"><span data-hover="Courses">Courses</span></a>
@@ -211,58 +208,40 @@ var panelsStyles = {"fullContainer":"body"};
                                                                               <meta itemprop="priceCurrency" content="&#36;" />
                                                                            </div>
                                                                         </div>
-                                                                        <a class="course-readmore" href="#">Read More</a>
+                                                                        <a class="course-readmore" href="#">Read More</a>             
                                                                      </div>
                                                                   </div>
                                                                </div>
                                                             </div>
                                                          </div>
                                                       </div>
-                                                   </div>s
+                                                   </div>
                                                 </div>
                                              </div>
                                           </div>
                                        </li>
                                     </ul>
                                  </li>
-                                  <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="aboutus.html"><span data-hover="About Us">About Us</span></a></li>
+                                  <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="aboutus.php"><span data-hover="About Us">About Us</span></a></li>
                                  <li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children drop_to_right standard">
                                     <a href="#"><span data-hover="Events">Events</span></a>
                                     <ul class="sub-menu" >
                                        <li  class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#.#.com/event-account/">Event Account</a></li>
                                     </ul>
                                  </li>
-
+                                 
                                  <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="#.#.com/blog/"><span data-hover="Blog">Blog</span></a></li>
-                                 <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard"><a href="contact_us.html"><span data-hover="Contact">Contact us</span></a></li>
-                                 <!-- <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard"><a href="#.#.com/contact/"><span data-hover="login">login</span></a> -->
-                                 <li class="thim-login-popup menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard">
-                                 <!-- <a href="#.#.com/contact/"><span data-hover="Contact">log</span></a> -->
-                                 <aside id="login-popup-2" class=" widget widget_login-popup">
-                              <div class="thim-widget-login-popup thim-widget-login-popup-base">
-                                 <div class="thim-link-login thim-login-popup">
-                                    <!-- <a class="register" href="#.#.com/account/?action=register">Register</a> -->
-                                    <a class="login logsize" href="#.#.com/account/">Login</a>
-                                 </div>
+                                 <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard"><a href="contact_us.php"><span data-hover="Contact">Contact us</span></a></li>
+                                
+                                <li  class="thim-login-popup menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard"><a class="login" href="#">Login</span></a></li>
+                                  
+                                 <!-- </div> -->
                                  <div id="thim-popup-login" class="has-shortcode">
                                     <div class="thim-login-container">
-                                       <script type="text/javascript">
-                                          function moOpenIdLogin(app_name) {
-                                                         window.location.href = '#.#.com/?option=getMoSocialLogin&app_name=' + app_name;
-                                          }
-                                       </script>
-                                       <a href='http://miniorange.com/cloud-identity-broker-service' style='display:none;'></a>
-                                       <a href='http://miniorange.com/strong_auth' style='display:none;'></a>
-                                       <a href='http://miniorange.com/single-sign-on-sso' style='display:none;'></a>
-                                       <a href='http://miniorange.com/fraud' style='display:none;'></a>
-                                       <div class='mo-openid-app-icons'>
-                                          <p> Login with social networks</p>
-                                          <a  style='width: 240px !important;padding-top:11px !important;padding-bottom:11px !important;margin-bottom: -1px !important;border-radius: 4px !important;' class='btn btn-block btn-social btn-facebook btn-custom-dec login-button' onClick='moOpenIdLogin("facebook");'> <i style='padding-top:5px !important' class='fa fa-facebook'></i> Facebook</a><a  style='width: 240px !important;padding-top:11px !important;padding-bottom:11px !important;margin-bottom: -1px !important;border-radius: 4px !important;' class='btn btn-block btn-social btn-google btn-custom-dec login-button' onClick='moOpenIdLogin("google");'> <i style='padding-top:5px !important' class='fa fa-google-plus'></i> Google</a><a  style='width: 240px !important;padding-top:11px !important;padding-bottom:11px !important;margin-bottom: -1px !important;border-radius: 4px !important;' class='btn btn-block btn-social btn-twitter btn-custom-dec login-button' onClick='moOpenIdLogin("twitter");'> <i style='padding-top:5px !important' class='fa fa-twitter'></i> Twitter</a><a  style='width: 240px !important;padding-top:11px !important;padding-bottom:11px !important;margin-bottom: -1px !important;border-radius: 4px !important;' class='btn btn-block btn-social btn-linkedin btn-custom-dec login-button' onClick='moOpenIdLogin("linkedin");'> <i style='padding-top:5px !important' class='fa fa-linkedin'></i> LinkedIn</a>
-                                       </div>
-                                       <br>
+                                       
                                        <div class="thim-login">
-                                          <h2 class="title">Login with your site account</h2>
-                                          <form name="loginform" id="loginform" action="#.#.com/wp-login.php" method="post">
+                                          <h2 class="title">Login</h2>
+                                          <form name="loginform" id="loginform" action="#/wp-login.php" method="post">
                                              <p class="login-username">
                                                 <label for="thim_login">Username or email</label>
                                                 <input type="text" name="log" id="thim_login" class="input" value="" size="20" />
@@ -271,21 +250,66 @@ var panelsStyles = {"fullContainer":"body"};
                                                 <label for="thim_pass">Password</label>
                                                 <input type="password" name="pwd" id="thim_pass" class="input" value="" size="20" />
                                              </p>
-                                             <a class="lost-pass-link" href="#.#.com/account/?action=lostpassword" title="Lost Password">Lost your password?</a>
+                                             <a class="lost-pass-link" href="#/account/?action=lostpassword" title="Lost Password">Lost your password?</a>
                                              <p class="login-remember"><label><input name="rememberme" type="checkbox" id="rememberme" value="forever" /> Remember me</label></p>
                                              <p class="login-submit">
                                                 <input type="submit" name="wp-submit" id="wp-submit" class="button-primary" value="Login" />
-                                                <input type="hidden" name="redirect_to" value="#.#.com" />
+                                                <input type="hidden" name="redirect_to" value="#" />
+                                                <br><br>
+                                               <!--  <a class="" href="#thim-popup-login2" title="Lost Password">have no account?</a>
+                                                 -->
+                                              <aside id="login-popup-2" class=" widget widget_login-popup">
+                              <div class="thim-widget-login-popup thim-widget-login-popup-base">
+                                 <div id="" class="thim-link-login thim-login-popup1">
+                                    <!-- <a class="register" href="#/account/?action=register">Register</a> -->
+                                    <a class="login logsize" href="#">Dont have an account?</a>
+                                 </div>
+                                 <div id="thim-popup-login1" class="has-shortcode">
+                                    <div class="thim-login-container">
+                                       
+                                            
+                                       <div class="thim-login" align="center">
+                                          <h2 class="title" align="center">Register Now</h2>
+                                          <form name="loginform" id="loginform" action="#/wp-login.php" method="post">
+                                             <p class="login-username">
+                                                <label for="thim_login">Username</label>
+                                                <input type="text" placeholder="Username" name="Username" id="Username" class="input" value="" size="20" />
+                                             </p>
+                                             <p class="login-username">
+                                                <label for="thim_login">E-mail</label>
+                                                <input type="text" placeholder="E-mail" name="email" id="email" class="input" value="E-mail" size="20" />
+                                             </p><br>
+                                             <p class="login-radio" align="left"><b>Rigester as :<t></b>
+                                              <input type="radio" name="rigester" value="Student" checked> Student
+                                              <input type="radio" name="rigester" value="Expert"> Expert
+                                              <input type="radio" name="rigester" value="University"> University
+                                              </p><br>
+                                             <p class="login-password">
+                                                <label for="thim_pass">Password</label>
+                                                <input type="password" placeholder="Password" name="pwd" id="con-pass" class="input" value="Password" size="3" />
+                                             </p>
+                                             <p class="login-password">
+                                                <label for="thim_pass">Confirm-Password</label>
+                                                <input type="password" placeholder="Confirm-Password"  name="con-pwd" id="con-pass" class="input" value="Confirm-Password" size="3" />
+                                             </p>
+                                             <p class="login-submit">
+                                                <input type="submit" name="wp-submit" id="wp-submit" class="button-primary" value="Sign-Up" />
+                                                <input type="hidden" name="redirect_to" value="#" />
                                              </p>
                                           </form>
-                                          <p class="link-bottom">Not a member yet? <a href="#.#.com/account/?action=register">Register now</a></p>
-                                       </div>
+                                          </div>
                                     </div>
                                  </div>
                               </div>
                            </aside>
+                                             </p>
+                                          </form>
+                                          </div>
+                                    </div>
+                                 </div>
                                  </li>
-
+                                    
+                                 
                                  <li class="menu-right">
                                     <ul>
                                        <li id="courses-searching-2" class="widget widget_courses-searching">
@@ -308,7 +332,7 @@ var panelsStyles = {"fullContainer":"body"};
                                     </ul>
                                  </li>
                               </ul>
-                              <!--</div>-->
+                              <!--</div>-->           
                            </nav>
                            <div class="menu-mobile-effect navbar-toggle" data-effect="mobile-effect">
                               <span class="icon-bar"></span>
@@ -324,9 +348,9 @@ var panelsStyles = {"fullContainer":"body"};
 		<!-- Mobile Menu-->
 		<nav class="mobile-menu-container mobile-effect">
 			<ul class="nav navbar-nav">
-	 <li  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children drop_to_right multicolumn">
-                                    <a href="index.html"><span data-hover="Demos">Home</span></a>
-
+	     <li  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children drop_to_right multicolumn">
+                                    <a href="index.php"><span data-hover="Demos">Home</span></a>
+                                    
                                  </li>
                                  <li  class="menu-item menu-item-type-custom menu-item-object-custom drop_to_right widget_area">
                                     <a href="#"><span data-hover="Courses">Courses</span></a>
@@ -365,12 +389,12 @@ var panelsStyles = {"fullContainer":"body"};
                                                                         <div class="course-meta">
                                                                            <div class="course-price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
                                                                               <div class="value free-course" itemprop="price" content="Free">
-
+                                                                                                          
                                                                               </div>
                                                                               <meta itemprop="priceCurrency" content="&#36;" />
                                                                            </div>
                                                                         </div>
-                                                                        <a class="course-readmore" href="#">Read More</a>
+                                                                        <a class="course-readmore" href="#">Read More</a>             
                                                                      </div>
                                                                   </div>
                                                                </div>
@@ -397,7 +421,7 @@ var panelsStyles = {"fullContainer":"body"};
                                        <li  class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#">Membership</a></li>
                                        <li  class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#">Gallery</a></li>
                                        <li  class="menu-item menu-item-type-post_type_archive menu-item-object-forum"><a href="#">Forums</a></li>
-                                       <li  class="menu-item menu-item-type-post_type menu-item-object-page"><a href="aboutus.html">About Us</a></li>
+                                       <li  class="menu-item menu-item-type-post_type menu-item-object-page"><a href="aboutus.php">About Us</a></li>
                                     </ul>
                                  </li>
                                  <li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children drop_to_right standard">
@@ -406,10 +430,10 @@ var panelsStyles = {"fullContainer":"body"};
                                        <li  class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#.#.com/event-account/">Event Account</a></li>
                                     </ul>
                                  </li>
-
+                                 
                                  <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="#.#.com/blog/"><span data-hover="Blog">Blog</span></a></li>
                                  <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard"><a href="#.#.com/contact/"><span data-hover="Contact">Contact</span></a></li>
-
+                                 
                                  <li class="menu-right">
                                     <ul>
                                        <li id="courses-searching-2" class="widget widget_courses-searching">
@@ -433,8 +457,8 @@ var panelsStyles = {"fullContainer":"body"};
                                  </li>
   </ul>		</nav>
 		<div id="main-content">	<section class="content-area">
-
-	<div class="top_site_main" style="color: #fff;background-image:url(images/include/contact.jpg);">
+		
+	<div class="top_site_main" style="color: #fff;background-image:url(images/include/bg_register_now.jpg);">
 				<div class="page-title-wrapper">
 			<div class="banner-wrapper container">
 				<h1>About Us</h1>			</div>
@@ -443,31 +467,26 @@ var panelsStyles = {"fullContainer":"body"};
 
 
 
-		<div class="breadcrumbs-wrapper">
-			<div class="container">
-				<ul itemprop="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList" id="breadcrumbs" class="breadcrumbs"><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="index.html" title="Home"><span itemprop="name">Home</span></a></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><span itemprop="name" title="About Us"> About Us</span></li></ul>			</div>
-		</div>
-
+    
 	<div class="container site-content no-padding-top"><div class="row"><main id="main" class="site-main col-sm-12 full-width">
 
-
+    
 <article id="post-2901" class="post-2901 page type-page status-publish hentry pmpro-has-access">
     <div class="entry-content">
-        <div id="pl-2901"><div class="panel-grid" id="pg-2901-0" ><div class="panel-grid-cell" id="pgc-2901-0-0" ><div class="so-panel widget widget_heading panel-first-child panel-last-child" id="panel-2901-0-0-0" data-index="0"><div style="padding: 30px 0px 0px;" class="panel-widget-style" ><div class="thim-widget-heading thim-widget-heading-base"><div class="sc_heading text-center"><h3 class="title">Our Story</h3><p align="justify" class="sub-heading" ><font color="black">We are a bunch of young entrepreneurs, with a vision to change the face of higher education in India by providing world class knowledge for students studying in universities and colleges. Our aim is to provide a platform for attending lectures delivered by top notch professors and Industry experts such students receive cutting edge knowledge of advanced technologies. Our goal is for the young minds to find their calling and achieve the required skill set to survive and grow in a competitive arena
-Birthdays call for grand celebrations and parties here. The morning and evening tea is what keeps the excitement on and tiredness away. The newcomers are given a warm welcome here after mandatorily treat by them. We value our team just like our customers and treat them like family instead of colleagues.</font></p></div></div></div></div></div></div><div class="panel-grid" id="pg-2901-1" ><div class="panel-grid-cell" id="pgc-2901-1-0" ><div class="so-panel widget widget_counters-box panel-first-child panel-last-child" id="panel-2901-1-0-0" data-index="1"><div class="thim-widget-counters-box thim-widget-counters-box-base"><div class="counter-box  about-us" style=""><div class="content-box-percentage">
-		<!-- <div class="display-percentage" data-percentage="55000">55000</div><div class="counter-content-container"><div class="counter-box-content">Foreign Followers</div></div></div></div></div></div></div><div class="panel-grid-cell" id="pgc-2901-1-1" ><div class="so-panel widget widget_counters-box panel-first-child panel-last-child" id="panel-2901-1-1-0" data-index="2"><div class="thim-widget-counters-box thim-widget-counters-box-base"><div class="counter-box  about-us" style=""><div class="content-box-percentage">
-		<div class="display-percentage" data-percentage="60">60</div><div class="counter-content-container"><div class="counter-box-content">Certified Teachers</div></div></div></div></div></div></div><div class="panel-grid-cell" id="pgc-2901-1-2" ><div class="so-panel widget widget_counters-box panel-first-child panel-last-child" id="panel-2901-1-2-0" data-index="3"><div class="thim-widget-counters-box thim-widget-counters-box-base"><div class="counter-box  about-us" style=""><div class="content-box-percentage">
-		<div class="display-percentage" data-percentage="2240">2240</div><div class="counter-content-container"><div class="counter-box-content">Students Enrolled</div></div></div></div></div></div></div><div class="panel-grid-cell" id="pgc-2901-1-3" ><div class="so-panel widget widget_counters-box panel-first-child panel-last-child" id="panel-2901-1-3-0" data-index="4"><div class="thim-no-border panel-widget-style" ><div class="thim-widget-counters-box thim-widget-counters-box-base"><div class="counter-box  about-us" style=""><div class="content-box-percentage">
-		<div class="display-percentage" data-percentage="215">215</div><div class="counter-content-container"><div class="counter-box-content">Complete Courses</div></div></div>--></div></div></div></div></div></div><br><br>
+        <div id="pl-2901"><div class="panel-grid" id="pg-2901-0" ><div class="panel-grid-cell" id="pgc-2901-0-0" ><div class="so-panel widget widget_heading panel-first-child panel-last-child" id="panel-2901-0-0-0" data-index="0"><div style="padding: 30px 0px 0px;" class="panel-widget-style" ><div class="thim-widget-heading thim-widget-heading-base"><div class=" text-center"><h3 class="title">Our Story</h3><p align="justify" class="sub-heading" ><font color="black">We are young entrepreneurs with a vision to change the face of higher education in India and other disadvantaged parts of the world by providing world-class education to anyone who wishes to learn. KnowledgeTime is a web-basedplatform that is designed to offerinnovative and easily accessible lectures delivered by accomplished professors and industry experts. This online source allows students the unique opportunity to learn the subjects of their interest at their own convenient time and pace. Our goalfor the young minds is to reach their dreams easier and faster with the leastexpense. KnowledgeTimeoffers all students an equal opportunity to enhance their creative thinking, find their passion, and gain the required skills for their dream career. </font></p></div></div></div></div></div></div><div class="panel-grid" id="pg-2901-1" ><div class="panel-grid-cell" id="pgc-2901-1-0" ><div class="so-panel widget widget_counters-box panel-first-child panel-last-child" id="panel-2901-1-0-0" data-index="1"><div class="thim-widget-counters-box thim-widget-counters-box-base"><div class="counter-box  about-us" style=""><div class="content-box-percentage">
+		</div></div></div></div></div></div><br><br> 
 
       <div class="panel-grid" id="pg-2901-3" ><div class="panel-grid-cell" id="pgc-2901-3-0" ><div class="so-panel widget widget_text panel-first-child panel-last-child" id="panel-2901-3-0-0" data-index="7"><h3 class="widget-title">Why KnowledgeTime</h3>			<div class="textwidget"><ul style="list-style-type:disc">
-	                         <li><font color="black">It gives practical based knowledge from the world’s best experts</font></li>
-	                         <li><font color="black">Live lectures with best understanding of the subjects</font></li>
-	                         <li><font color="black">Best design of the advanced courses</font></li>
-	                         <li><font color="black">Peer Assessment</font></li>
-	                         <li><font color="black">Online assignments, quizzes and guidance for the hobby projects </font></li>
+	                         <li><font color="black"> It gives latest practical based knowledge fromthe top-leading experts</font></li>
+	                         <li><font color="black">Livelectures with great expertise on the subjects</font></li>
+	                         <li><font color="black">Uses latestweb-based design of advanced courses</font></li>
+	                         <li><font color="black">Receive one-on-one instruction from instructors, tutors and peers</font></li>
+	                         <li><font color="black">Uses peer assessment methods where students can provide feedback and engage in peer-to-peer teaching </font></li>
+                           <li><font color="black"> Complete online assignments, quizzes and projects </font></li>
+                           <li><font color="black"> Gives second chances. And third. And fourth! Students can re-learn and re-submit their quizzes or assignments</font></li>
+                           
 						</ul></div>
-		</div></div><div class="panel-grid-cell" id="pgc-2901-3-1" >&nbsp;</div><div class="panel-grid-cell" id="pgc-2901-3-2" ><div class="so-panel widget widget_text panel-first-child panel-last-child" id="panel-2901-3-2-0" data-index="8"><h3 class="widget-title">How it Works</h3>			<div class="textwidget"><font color="black">KnowledgeTime is the online education company, where in it collaborates industry experts, academic experts and visionaries to give quality education to all.</font>
+		</div></div><div class="panel-grid-cell" id="pgc-2901-3-1" >&nbsp;</div><div class="panel-grid-cell" id="pgc-2901-3-2" ><div class="so-panel widget widget_text panel-first-child panel-last-child" id="panel-2901-3-2-0" data-index="8"><h3 class="widget-title">How it Works</h3>			<div class="textwidget"><font color="black">KnowledgeTime isan online platform thatworks in collaboration with world-leading instructors, industry experts and visionaries to give quality education to all.</font>
  		</div>
 		</div></div></div>
       <div class="panel-grid" id="pg-2901-4" >
@@ -479,7 +498,7 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
     <div class="panel-grid-cell" id="pgc-2901-5-0" >
         <div class="so-panel widget widget_heading panel-first-child panel-last-child" id="panel-2901-5-0-0" data-index="9">
             <div class="thim-widget-heading thim-widget-heading-base">
-                <div class="sc_heading text-center">
+                <div class=" text-center">
                     <h3 class="title">Meet Our Team</h3>
                     <p class="sub-heading" style=""></p>
                     <span class="line"></span>
@@ -489,325 +508,318 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
     </div>
 </div>
 <div class="row">
-
+  
   <div class="col-sm-3">
-
+ 
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
         <div class="img"><img src="images/team/Kiran.jpg" alt="img"></div>
         <div class="info">
           <div class="info-back">
-            <span class="fa-stack">
+            <!-- <span class="fa-stack">
             <i class="whit fa fa-facebook-square fa-stack-2x""></i><br><br>
             <i class="whit fa fa-twitter-square fa-stack-2x"></i><br><br>
-            <i class="whit fa fa-pinterest-square fa-stack-2x"></i><br><br>
+            
             <i class="whit fa fa-linkedin-square fa-stack-2x"></i>
-            </span>
+            </span> --> -->
           </div>
         </div></a>
         <h6 align="center" ><a href="#">Kiran Kuruvinashetti</a></h6>
+        <p align="center">Founder and CEO </p>
       </div>
     <!-- end colored -->
-
+ 
   </div>
   <div class="col-sm-3">
-
+ 
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
         <div class="img"><img src="images/team/Nehal.jpg" alt="img"></div>
         <div class="info">
           <div class="info-back">
-            <span class="fa-stack">
+            <!-- <span class="fa-stack">
             <i class="whit fa fa-facebook-square fa-stack-2x""></i><br><br>
             <i class="whit fa fa-twitter-square fa-stack-2x"></i><br><br>
-            <i class="whit fa fa-pinterest-square fa-stack-2x"></i><br><br>
+            
             <i class="whit fa fa-linkedin-square fa-stack-2x"></i>
-            </span>
+            </span> -->
           </div>
         </div></a>
         <h6 align="center" ><a href="#">Nehal Bhagat</a></h6>
+        <p align="center">Co-Founder and Lead Software Developer  </p>
       </div>
     <!-- end colored -->
-
+ 
   </div>
   <div class="col-sm-3">
-
+ 
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
         <div class="img"><img src="images/team/pankaj.jpg" alt="img"></div>
         <div class="info">
           <div class="info-back">
-            <span class="fa-stack">
+            <!-- <span class="fa-stack">
             <i class="whit fa fa-facebook-square fa-stack-2x""></i><br><br>
             <i class="whit fa fa-twitter-square fa-stack-2x"></i><br><br>
-            <i class="whit fa fa-pinterest-square fa-stack-2x"></i><br><br>
+            
             <i class="whit fa fa-linkedin-square fa-stack-2x"></i>
-            </span>
+            </span> -->
           </div>
         </div></a>
         <h6 align="center" ><a href="#">Pankaj Shivhare</a></h6>
+        <p align="center">Co-Founder and Lead Course Content Designer </p>
       </div>
     <!-- end colored -->
-
+ 
   </div>
   <div class="col-sm-3">
-
+ 
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
         <div class="img"><img src="images/team/amandeep.jpg" alt="img"></div>
         <div class="info">
           <div class="info-back">
-            <span class="fa-stack">
+            <!-- <span class="fa-stack">
             <i class="whit fa fa-facebook-square fa-stack-2x""></i><br><br>
             <i class="whit fa fa-twitter-square fa-stack-2x"></i><br><br>
-            <i class="whit fa fa-pinterest-square fa-stack-2x"></i><br><br>
+            
             <i class="whit fa fa-linkedin-square fa-stack-2x"></i>
-            </span>
+            </span> -->
           </div>
         </div></a>
         <h6 align="center" ><a href="#">Amandeep Kaur</a></h6>
+        <p align="center">Co-Founder and Software Developer  </p>
 
       </div>
     <!-- end colored -->
- <br><br><br><br>
+ <br><br><br><br><br>
   </div>
 
   <div class="col-sm-3">
-
+ 
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
         <div class="img"><img src="images/team/lianne.jpg" alt="img"></div>
         <div class="info">
           <div class="info-back">
-            <span class="fa-stack">
+            <!-- <span class="fa-stack">
             <i class="whit fa fa-facebook-square fa-stack-2x""></i><br><br>
             <i class="whit fa fa-twitter-square fa-stack-2x"></i><br><br>
-            <i class="whit fa fa-pinterest-square fa-stack-2x"></i><br><br>
+            
             <i class="whit fa fa-linkedin-square fa-stack-2x"></i>
-            </span>
+            </span> -->
           </div>
         </div></a>
         <h6 align="center" ><a href="#">Lianne Shaoyang Li</a></h6>
+        <p align="center">CFO </p>
       </div>
     <!-- end colored -->
-
+ 
   </div>
+  
   <div class="col-sm-3">
-
-    <!-- colored -->
-    <div class="ih-item circle colored effect1"><a href="#">
-        <div class="spinner"></div>
-        <div class="img"><img src="images/team/Hooda.jpg" alt="img"></div>
-        <div class="info">
-          <div class="info-back">
-            <span class="fa-stack">
-            <i class="whit fa fa-facebook-square fa-stack-2x""></i><br><br>
-            <i class="whit fa fa-twitter-square fa-stack-2x"></i><br><br>
-            <i class="whit fa fa-pinterest-square fa-stack-2x"></i><br><br>
-            <i class="whit fa fa-linkedin-square fa-stack-2x"></i>
-            </span>
-          </div>
-        </div></a>
-        <h6 align="center" ><a href="#">Hodayasini</a></h6>
-      </div>
-    <!-- end colored -->
-
-  </div>
-  <div class="col-sm-3">
-
+ 
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
         <div class="img"><img src="images/team/anand.jpg" alt="img"></div>
         <div class="info">
           <div class="info-back">
-            <span class="fa-stack">
+            <!-- <span class="fa-stack">
             <i class="whit fa fa-facebook-square fa-stack-2x""></i><br><br>
             <i class="whit fa fa-twitter-square fa-stack-2x"></i><br><br>
-            <i class="whit fa fa-pinterest-square fa-stack-2x"></i><br><br>
+            
             <i class="whit fa fa-linkedin-square fa-stack-2x"></i>
-            </span>
+            </span> -->
           </div>
         </div></a>
         <h6 align="center" ><a href="#">Anand Kukde</a></h6>
+        <p align="center">Lead Relationship Officer  </p>
       </div>
     <!-- end colored -->
-
+ 
   </div>
   <div class="col-sm-3">
-
+ 
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
         <div class="img"><img src="images/team/naveen.jpg" alt="img"></div>
         <div class="info">
           <div class="info-back">
-            <span class="fa-stack">
+            <!-- <span class="fa-stack">
             <i class="whit fa fa-facebook-square fa-stack-2x""></i><br><br>
             <i class="whit fa fa-twitter-square fa-stack-2x"></i><br><br>
-            <i class="whit fa fa-pinterest-square fa-stack-2x"></i><br><br>
+            
             <i class="whit fa fa-linkedin-square fa-stack-2x"></i>
-            </span>
+            </span> -->
           </div>
         </div></a>
         <h6 align="center" ><a href="#">Naveen Shirur</a></h6>
+        <p align="center">COO  </p>
       </div>
     <!-- end colored -->
- <br><br><br><br>
+ 
   </div>
-
-
+ 
+ 
   <div class="col-sm-3">
-
+ 
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
         <div class="img"><img src="images/team/natalia.jpg" alt="img"></div>
         <div class="info">
           <div class="info-back">
-            <span class="fa-stack">
+            <!-- <span class="fa-stack">
             <i class="whit fa fa-facebook-square fa-stack-2x""></i><br><br>
             <i class="whit fa fa-twitter-square fa-stack-2x"></i><br><br>
-            <i class="whit fa fa-pinterest-square fa-stack-2x"></i><br><br>
+            
             <i class="whit fa fa-linkedin-square fa-stack-2x"></i>
-            </span>
+            </span> -->
           </div>
         </div></a>
         <h6 align="center" ><a href="#">Natalia</a></h6>
+        <p align="center">Lead Scientific Learning Officer  </p>
       </div>
     <!-- end colored -->
-
+ <br><br><br><br><br>
   </div>
   <div class="col-sm-3">
-
+ 
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
         <div class="img"><img src="images/team/Vinay.jpg" alt="img"></div>
         <div class="info">
           <div class="info-back">
-            <span class="fa-stack">
+            <!-- <span class="fa-stack">
             <i class="whit fa fa-facebook-square fa-stack-2x""></i><br><br>
             <i class="whit fa fa-twitter-square fa-stack-2x"></i><br><br>
-            <i class="whit fa fa-pinterest-square fa-stack-2x"></i><br><br>
+            
             <i class="whit fa fa-linkedin-square fa-stack-2x"></i>
-            </span>
+            </span> -->
           </div>
         </div></a>
         <h6 align="center" ><a href="#">Vinay Paramanand</a></h6>
+        <p align="center">Business Strategy Analyst  </p>
       </div>
     <!-- end colored -->
-
+ 
   </div><br><br>
   <div class="col-sm-3">
-
+ 
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
         <div class="img"><img src="images/team/gaurav.jpg" alt="img"></div>
         <div class="info">
           <div class="info-back">
-            <span class="fa-stack">
+            <!-- <span class="fa-stack">
             <i class="whit fa fa-facebook-square fa-stack-2x""></i><br><br>
             <i class="whit fa fa-twitter-square fa-stack-2x"></i><br><br>
-            <i class="whit fa fa-pinterest-square fa-stack-2x"></i><br><br>
+            
             <i class="whit fa fa-linkedin-square fa-stack-2x"></i>
-            </span>
+            </span> -->
           </div>
         </div></a>
         <h6 align="center" ><a href="#">Gaurav Gowda</a></h6>
+        <p align="center">Information Security Analyst </p>
       </div>
     <!-- end colored -->
-
+ 
   </div>
   <div class="col-sm-3">
-
+ 
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
         <div class="img"><img src="images/team/dinesh.jpg" alt="img"></div>
         <div class="info">
           <div class="info-back">
-            <span class="fa-stack">
+            <!-- <span class="fa-stack">
             <i class="whit fa fa-facebook-square fa-stack-2x""></i><br><br>
             <i class="whit fa fa-twitter-square fa-stack-2x"></i><br><br>
-            <i class="whit fa fa-pinterest-square fa-stack-2x"></i><br><br>
+            
             <i class="whit fa fa-linkedin-square fa-stack-2x"></i>
-            </span>
+            </span> -->
           </div>
         </div></a>
         <h6 align="center" ><a href="#">Dinesh Acharya</a></h6>
+        <p align="center">Marketing Manager  </p>
       </div>
     <!-- end colored -->
- <br><br><br><br>
   </div>
 <div class="col-sm-3">
-
+ 
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
         <div class="img"><img src="images/team/lakshman.jpg" alt="img"></div>
         <div class="info">
           <div class="info-back">
-            <span class="fa-stack">
+            <!-- <span class="fa-stack">
             <i class="whit fa fa-facebook-square fa-stack-2x""></i><br><br>
             <i class="whit fa fa-twitter-square fa-stack-2x"></i><br><br>
-            <i class="whit fa fa-pinterest-square fa-stack-2x"></i><br><br>
+            
             <i class="whit fa fa-linkedin-square fa-stack-2x"></i>
-            </span>
+            </span> -->
           </div>
         </div></a>
         <h6 align="center" ><a href="#">Lakshman Pawar</a></h6>
+        <p align="center">Lead Media Manager  </p>
       </div>
     <!-- end colored -->
-
+ <br><br><br><br><br>
   </div>
   <div class="col-sm-3">
-
+ 
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
         <div class="img"><img src="images/team/nandan.jpg" alt="img"></div>
         <div class="info">
           <div class="info-back">
-            <span class="fa-stack">
+            <!-- <span class="fa-stack">
             <i class="whit fa fa-facebook-square fa-stack-2x""></i><br><br>
             <i class="whit fa fa-twitter-square fa-stack-2x"></i><br><br>
-            <i class="whit fa fa-pinterest-square fa-stack-2x"></i><br><br>
+            
             <i class="whit fa fa-linkedin-square fa-stack-2x"></i>
-            </span>
+            </span> -->
           </div>
         </div></a>
         <h6 align="center" ><a href="#">Nandan</a></h6>
+        <p align="center">Front End software Developer  </p>
       </div>
     <!-- end colored -->
-
+ 
   </div>
   <div class="col-sm-3">
-
+ 
     <!-- colored -->
     <div class="ih-item circle colored effect1"><a href="#">
         <div class="spinner"></div>
         <div class="img"><img src="images/team/milan.jpg" alt="img"></div>
         <div class="info">
           <div class="info-back">
-            <span class="fa-stack">
+            <!-- <span class="fa-stack">
             <i class="whit fa fa-facebook-square fa-stack-2x""></i><br><br>
             <i class="whit fa fa-twitter-square fa-stack-2x"></i><br><br>
-            <i class="whit fa fa-pinterest-square fa-stack-2x"></i><br><br>
+            
             <i class="whit fa fa-linkedin-square fa-stack-2x"></i>
-            </span>
+            </span> -->
           </div>
         </div></a>
         <h6 align="center" ><a href="#">Milan meet Kaur</a></h6>
+        <p align="center">Software Developer </p>
       </div>
     <!-- end colored -->
-
+ <br><br>
   </div>
 
 
@@ -816,7 +828,7 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
     <!-- end normal -->
 </div>
 </div>
-</article>
+</article>  
 </main></div></div>	</section><br><br><br>
 <footer id="colophon" class="site-footer ">
                   <div class="footer">
@@ -830,8 +842,8 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
                                        <div class="so-panel widget widget_black-studio-tinymce widget_black_studio_tinymce panel-first-child" id="panel-w575924cfed45d-0-0-0" data-index="0">
                                           <div class="textwidget">
                                              <div class="thim-footer-location">
-                                                <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="sticky-logo"><h4 style="color:white;">Knowledge time</h4></a>
-                                                <p class="info"><i class="fa fa-phone"></i><a href="#">(00) 123 456 789</a></p>
+                                                <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="sticky-logo"><h4 style="color:white;">KnowledgeTime</h4></a>
+                                                <p class="info"><i class="fa fa-phone"></i><a href="#">+1(514)692-9467</a></p>
                                                 <p class="info">
                                                    <i class="fa fa-envelope"></i>
                                                    <a href="#">
@@ -848,7 +860,7 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
                                                    <li><a class="facebook hasTooltip" href="#" target="_self"><i class="fa fa-facebook"></i></a></li>
                                                    <li><a class="twitter hasTooltip" href="#" target="_self" ><i class="fa fa-twitter"></i></a></li>
                                                    <li><a class="google-plus hasTooltip" href="#" target="_self" ><i class="fa fa-google-plus"></i></a></li>
-                                                   <li><a class="pinterest hasTooltip" href="#" target="_self" ><i class="fa fa-pinterest"></i></a></li>
+                                                   <li><a class="linkedin hasTooltip" href="#" target="_self" ><i class="fa fa-linkedin"></i></a></li>
                                                 </ul>
                                              </div>
                                           </div>
@@ -856,15 +868,15 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
                                     </div>
                                     <div class="panel-grid-cell" id="pgc-w575924cfed45d-0-1" >
                                        <div class="so-panel widget widget_nav_menu panel-first-child panel-last-child" id="panel-w575924cfed45d-0-1-0" data-index="2">
-                                          <h3 class="widget-title">Company</h3>
-                                          <div class=" megaWrapper">
-                                             <ul id="menu-company" class="menu">
-                                                <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="#"><span data-hover="About Us">About Us</span></a></li>
+                                          <h3 class="widget-title" align="left">Company</h3>
+                                          <!-- <div class=" megaWrapper"> -->
+                                             <ul id="menu-company" class=" megaWrappermenu" >
+                                                <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard" ><a href="#"><span data-hover="About Us">About Us</span></a></li>
                                                 <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="#"><span data-hover="Blog">Blog</span></a></li>
                                                 <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="#"><span data-hover="Contact">Contact</span></a></li>
                                                 <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="#"><span data-hover="Become a Teacher">Become a Teacher</span></a></li>
                                              </ul>
-                                          </div>
+                                          <!-- </div> -->
                                        </div>
                                     </div>
                                     <div class="panel-grid-cell" id="pgc-w575924cfed45d-0-2" >
@@ -916,7 +928,7 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
                         <div class="copyright-content">
                            <div class="row">
                               <div class="col-sm-6">
-                                 <p class="text-copyright">© 2016 Knowledge Time. All rights reserved.</p>
+                                 <p class="text-copyright">© 2016 KnowledgeTime. All rights reserved.</p>
                               </div>
                               <div class="col-sm-6 text-right">
                                  <aside id="nav_menu-14" class="widget widget_nav_menu">
@@ -935,10 +947,10 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
                   </div>
                </footer>
                <!-- #colophon -->
-
+           
 		<script type="text/javascript">jQuery(function ($) {
-
-
+				
+		
 			;
 			(function () {
 				var $form = $('#learn-press-checkout');
@@ -950,16 +962,16 @@ Birthdays call for grand celebrations and parties here. The morning and evening 
 					}
 				});
 			})();
-
-
+		
+		
 			});
 		</script>
 				<!-- Memberships powered by Paid Memberships Pro v1.8.9.3.
  -->
-
-
-
-</div><div id="tp_chameleon_list_google_fonts"></div>			<script data-cfasync="false" type="text/javascript">
+		
+	
+		
+</script><div id="tp_chameleon_list_google_fonts"></div>			<script data-cfasync="false" type="text/javascript">
 				window.onload = function () {
 					setTimeout(function () {
 						var body = document.getElementById("thim-body"),
@@ -1014,7 +1026,7 @@ var thim_placeholder = {"login":"Username","password":"Password"};
 <script type='text/javascript' src='js/custom-script-v1.min.js'></script>
 <script type='text/javascript' src='js/wp-embed.min.js'></script>
 
-
+	
 
 	<script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

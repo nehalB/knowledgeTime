@@ -1,5 +1,3 @@
-<?php
-?>
 <!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/WebPage" lang="en-US" prefix="og: http://ogp.me/ns#">
    <head>
@@ -12,7 +10,7 @@
          var ajaxurl = "#/wp-admin/admin-ajax.php";
          /* ]]> */
       </script>
-      <title>Knowledge Time</title>
+      <title>KnowledgeTime</title>
 
 <link rel="apple-touch-icon" sizes="180x180" href="logo/favicons/apple-touch-icon.png">
 <link rel="icon" type="image/png" href="logo/favicons/favicon-32x32.png" sizes="32x32">
@@ -179,6 +177,7 @@
       .logsize{
             font-size: 15px !important;
       }
+
     </style>
     <style type="text/css">
       a.blue:hover, a.blue:active {color: blue !important;}
@@ -216,16 +215,14 @@ margin-left:0px;
                      <div class="navigation col-sm-12">
                         <div class="tm-table">
                            <div class="width-logo table-cell sm-logo">
-                              <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="no-sticky-logo"><img src="logo/logo.png" alt="Education WP" width="153" height="40" /></a>
-                              <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="sticky-logo"><img src="logo/logo.png" alt="Education WP" width="153" height="40" /></a>           
-                              <!-- <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="no-sticky-logo"><h4 style="color:white;">Knowledge time</h4></a>
-                              <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="sticky-logo"><h4 style="color:black;">Knowledge time</h4></a>           
-                            -->
+                              <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="no-sticky-logo"><img src="logo/logo-1.png" alt="Education WP" class="logo"></a>
+                              <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="sticky-logo"><img src="logo/logo-2.png" alt="Education WP" class="logo"></a>           
+                             
                             </div>
                            <nav class="width-navigation table-cell table-right ">
                               <ul class="nav navbar-nav menu-main-menu course ">
                                  <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard">
-                                    <a href="index.html"><span data-hover="Home">Home</span></a>
+                                    <a href="index.php"><span data-hover="Home">Home</span></a>
                                   </li>
                                  <li  class="menu-item menu-item-type-custom menu-item-object-custom drop_to_right widget_area">
                                     <a href="#"><span data-hover="Courses">Courses</span></a>
@@ -240,11 +237,11 @@ margin-left:0px;
                                                          <h3 class="widget-title">List of Courses</h3>
                                                          <div class=" megaWrapper">
                                                             <ul id="menu-about-courses" >
-                                                               <li><a class="black blue" href="#">Software engineering</a> </li>
-                                                               <li><a class="black blue" href="#">Mechanical engineering </a></li>
+                                                               <li><a class="black blue" href="#">Software Engineering</a> </li>
+                                                               <li><a class="black blue" href="#">Mechanical Engineering </a></li>
                                                                <li><a class="black blue" href="#">Data Analysis </a></li>
                                                                <li><a class="black blue" href="#"> Programming with Python</a></li>
-                                                               <li><a class="black blue" href="#">Data analysis using register </a></li>
+                                                               <li><a class="black blue" href="#">Data Analysis using register </a></li>
                                                             </ul>
                                                          </div>
                                                       </div>
@@ -275,20 +272,20 @@ margin-left:0px;
                                                             </div>
                                                          </div>
                                                       </div>
-                                                   </div>s
+                                                   </div>
                                                 </div>
                                              </div>
                                           </div>
                                        </li>
                                     </ul>
                                  </li>
-                                 <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="aboutus.html"><span data-hover="About Us">About Us</span></a></li>
+                                 <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="aboutus.php"><span data-hover="About Us">About Us</span></a></li>
                                   <!-- <li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children drop_to_right standard"> -->
-                                    <!-- <a href="aboutus.html"><span data-hover="Events">About Us</span></a> -->
+                                    <!-- <a href="aboutus.php"><span data-hover="Events">About Us</span></a> -->
                                     <!-- <ul class="sub-menu" > -->
                                        <!-- <li  class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#">Gallery</a></li> -->
                                        <!-- <li  class="menu-item menu-item-type-post_type_archive menu-item-object-forum"><a href="#">Forums</a></li> -->
-                                       <!-- <li  class="menu-item menu-item-type-post_type menu-item-object-page"><a href="aboutus.html">About Us</a></li> -->
+                                       <!-- <li  class="menu-item menu-item-type-post_type menu-item-object-page"><a href="aboutus.php">About Us</a></li> -->
                                     <!-- </ul> -->
                                  <!-- </li> -->
                                  <li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children drop_to_right standard">
@@ -299,16 +296,45 @@ margin-left:0px;
                                  </li>
                                  
                                  <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="#/blog/"><span data-hover="Blog">Blog</span></a></li>
-                                 <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard"><a href="contact_us.html">Contact us</span></a></li>
+                                 <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard"><a href="contact_us.php">Contact us</span></a></li>
                                   <li  class="thim-login-popup menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard"><a class="login" href="#">Login</span></a></li>
-                                  <li class="logout"
-                                 <!-- </div> -->
-                                 <div id="thim-popup-login" class="has-shortcode">
+                                  <div id="thim-popup-login" class="has-shortcode">
                                     <div class="thim-login-container">
                                        
+                                       
+                                       <br>        
                                        <div class="thim-login">
-                                          <h2 class="title">Sign Up</h2>
-                                          <form name="signup" id="loginform" action="#" method="post">
+                                          <h2 class="title">Login</h2>
+                                          <form name="loginform" id="loginform" action="#/wp-login.php" method="post">
+                                             <p class="login-username">
+                                                <label for="thim_login">Username or email</label>
+                                                <input type="text" name="log" id="thim_login" class="input" value="" size="20" />
+                                             </p>
+                                             <p class="login-password">
+                                                <label for="thim_pass">Password</label>
+                                                <input type="password" name="pwd" id="thim_pass" class="input" value="" size="20" />
+                                             </p>
+                                             <a class="lost-pass-link" href="#/account/?action=lostpassword" title="Lost Password">Lost your password?</a>
+                                             <p class="login-remember"><label><input name="rememberme" type="checkbox" id="rememberme" value="forever" /> Remember me</label></p>
+                                             <p class="login-submit">
+                                                <input type="submit" name="wp-submit" id="wp-submit" class="button-primary" value="Login" />
+                                                <input type="hidden" name="redirect_to" value="#" />
+                                                <br><br>
+                                               <!--  <a class="" href="#thim-popup-login2" title="Lost Password">have no account?</a>
+                                                 -->
+                                              <aside id="login-popup-2" class=" widget widget_login-popup">
+                              <div class="thim-widget-login-popup thim-widget-login-popup-base">
+                                 <div id="" class="thim-link-login thim-login-popup1">
+                                    <!-- <a class="register" href="#/account/?action=register">Register</a> -->
+                                    <a class="login logsize" href="#">Dont have an account?</a>
+                                 </div>
+                                 <div id="thim-popup-login1" class="has-shortcode">
+                                    <div class="thim-login-container">
+                                       
+                                            
+                                       <div class="thim-login" align="center">
+                                          <h2 class="title" align="center">Register Now</h2>
+                                          <form name="loginform" id="loginform" action="#/wp-login.php" method="post">
                                              <p class="login-username">
                                                 <label for="thim_login">Username</label>
                                                 <input type="text" placeholder="Username" name="Username" id="Username" class="input" value="" size="20" />
@@ -335,37 +361,25 @@ margin-left:0px;
                                                 <input type="hidden" name="redirect_to" value="#" />
                                              </p>
                                           </form>
-                                            </div>
-                                       <!-- <div class='mo-openid-app-icons'>
-                                          <p> Sign Up</p>
-                                          <a  style='width: 240px !important;padding-top:11px !important;padding-bottom:11px !important;margin-bottom: -1px !important;border-radius: 4px !important;' class='btn btn-block btn-social btn-facebook btn-custom-dec login-button' onClick='moOpenIdLogin("facebook");'> <i style='padding-top:5px !important' class='fa fa-facebook'></i> Facebook</a><a  style='width: 240px !important;padding-top:11px !important;padding-bottom:11px !important;margin-bottom: -1px !important;border-radius: 4px !important;' class='btn btn-block btn-social btn-google btn-custom-dec login-button' onClick='moOpenIdLogin("google");'> <i style='padding-top:5px !important' class='fa fa-google-plus'></i> Google</a><a  style='width: 240px !important;padding-top:11px !important;padding-bottom:11px !important;margin-bottom: -1px !important;border-radius: 4px !important;' class='btn btn-block btn-social btn-twitter btn-custom-dec login-button' onClick='moOpenIdLogin("twitter");'> <i style='padding-top:5px !important' class='fa fa-twitter'></i> Twitter</a><a  style='width: 240px !important;padding-top:11px !important;padding-bottom:11px !important;margin-bottom: -1px !important;border-radius: 4px !important;' class='btn btn-block btn-social btn-linkedin btn-custom-dec login-button' onClick='moOpenIdLogin("linkedin");'> <i style='padding-top:5px !important' class='fa fa-linkedin'></i> LinkedIn</a>
-                                      
-                                       </div> -->
-                                       <br>        
-                                       <div class="thim-login">
-                                          <h2 class="title">Login with your site account</h2>
-                                          <form name="loginform" id="loginform" action="#/wp-login.php" method="post">
-                                             <p class="login-username">
-                                                <label for="thim_login">Username or email</label>
-                                                <input type="text" name="log" id="thim_login" class="input" value="" size="20" />
-                                             </p>
-                                             <p class="login-password">
-                                                <label for="thim_pass">Password</label>
-                                                <input type="password" name="pwd" id="thim_pass" class="input" value="" size="20" />
-                                             </p>
-                                             <a class="lost-pass-link" href="#/account/?action=lostpassword" title="Lost Password">Lost your password?</a>
-                                             <p class="login-remember"><label><input name="rememberme" type="checkbox" id="rememberme" value="forever" /> Remember me</label></p>
-                                             <p class="login-submit">
-                                                <input type="submit" name="wp-submit" id="wp-submit" class="button-primary" value="Login" />
-                                                <input type="hidden" name="redirect_to" value="#" />
+                                          </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </aside>
                                              </p>
                                           </form>
                                           </div>
                                     </div>
                                  </div>
+                                 </li>
+                                 <!-- </div> -->
+                                 
                               <!-- </div> -->
                            </aside>
-                                 </li>
+
+
+
+                           
                                  
                                  <li class="menu-right">
                                     <ul>
@@ -407,7 +421,7 @@ margin-left:0px;
                <ul class="nav navbar-nav">
                   
                  <li  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children drop_to_right multicolumn">
-                                    <a href="index.html"><span data-hover="Demos">Home</span></a>
+                                    <a href="index.php"><span data-hover="Demos">Home</span></a>
                                     
                                  </li>
                                  <li  class="menu-item menu-item-type-custom menu-item-object-custom drop_to_right widget_area">
@@ -472,7 +486,7 @@ margin-left:0px;
                                        <li  class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#">Membership</a></li>
                                        <li  class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#">Gallery</a></li>
                                        <li  class="menu-item menu-item-type-post_type_archive menu-item-object-forum"><a href="#">Forums</a></li>
-                                       <li  class="menu-item menu-item-type-post_type menu-item-object-page"><a href="aboutus.html">About Us</a></li>
+                                       <li  class="menu-item menu-item-type-post_type menu-item-object-page"><a href="aboutus.php">About Us</a></li>
                                     </ul>
                                  </li>
                                  <li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children drop_to_right standard">
@@ -483,7 +497,7 @@ margin-left:0px;
                                  </li>
                                  
                                  <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="#/blog/"><span data-hover="Blog">Blog</span></a></li>
-                                 <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard"><a href="contact_us.html"><span data-hover="Contact">Contact</span></a></li>
+                                 <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard"><a href="contact_us.php"><span data-hover="Contact">Contact</span></a></li>
                                  <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard"><a href="#/contact/"><span data-hover="login">login</span></a></li>
                                  <li class="menu-right">
                                     <ul>
@@ -522,7 +536,7 @@ margin-left:0px;
 <ul>  <!-- SLIDE  -->
    <li data-index="rs-17" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/include/top-slider-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
       <!-- MAIN IMAGE -->
-      <img src=""  alt="" title="top-slider"  width="1600" height="900" data-lazyload="images/include/kt_home.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+      <img src=""  alt="" title="top-slider"  width="1600" height="900" data-lazyload="images/include/top-slider.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                                  <!-- LAYERS -->
                                                 <!-- LAYER NR. 1 -->
                                                 <div class="tp-caption    thim-slider-sub-heading" 
@@ -902,46 +916,16 @@ margin-left:0px;
                               </div>
                            </div>
                         </div>
-                     </div><br><br><br><br>
+                     </div><br>
                      <div class="panel-grid" id="pg-12-2" >
                         <div class="panel-grid-cell" id="pgc-12-2-0" >
                           <section id="features">
-        <!-- <div class="row">
-            <div class="col-lg-12" align="center">
-               <h2 class="section-heading">Our Features</h2>
-               
-            </div>
-     	</div><br><br> -->
-        <!--  <div class="row">
-                      
-            
-            <div class="col-sm-4" align="center">
-               <div class="team-member">
-                  <a href="#"><img src="images/features/img1.jpg" class="img-responsive img-circle" alt=""></a>
-                  <h6>Online video classes</h6>
-               </div>
-            </div>
-                        
-            
-            <div class="col-sm-4" align="center">
-               <div class="team-member">
-                  <a href="#"><img src="images/features/img2.jpg" class="img-responsive img-circle" alt=""></a>
-                  <h6>e-library</h6>
-                  </div>
-            </div>
-            <div class="col-sm-4" align="center">
-               <div class="team-member">
-                  <a href="#"><img src="images/features/img3.png" class="img-responsive img-circle" alt=""></a>
-                  <h6>live chat</h6>
-                  </div>
-            </div>
-                     </div> -->
-      </section><br><br>
+                          </section>
                            <div class="so-panel widget widget_heading panel-first-child" id="panel-12-2-0-0" data-index="4">
                               <div class="thim-widget-heading thim-widget-heading-base">
-                                 <div class="sc_heading text-left">
+                                 <div class="text-left">
                                     <h3 class="title">Upcomming Courses</h3>
-                                    <span class="line"></span>
+                                   
                                  </div>
                               </div>
                            </div>
@@ -974,7 +958,7 @@ margin-left:0px;
                                     </div>
                                     <div class="course-item">
                                     <div class="hovereffect">
-        <img class="img-responsive" src="images/work03.jpg" alt="">
+        <img class="img-responsive" src="images/work04.jpg" alt="">
         <div class="overlay">
             <h2>Machine Learning</h2>
             <a class="info" href="#">View</a>
@@ -985,7 +969,7 @@ margin-left:0px;
                                     </div>
                                     <div class="course-item">
                                     <div class="hovereffect">
-        <img class="img-responsive" src="images/work04.jpg" alt="">
+        <img class="img-responsive" src="images/work05.jpg" alt="">
         <div class="overlay">
             <h2>Programmable microfluidics</h2>
             <a class="info" href="#">View</a>
@@ -997,7 +981,7 @@ margin-left:0px;
     </div>
                                     <div class="course-item">
                                     <div class="hovereffect">
-        <img class="img-responsive" src="images/work05.jpg" alt="">
+        <img class="img-responsive" src="images/work06.jpg" alt="">
         <div class="overlay">
             <h2>HTML CSS and JavaScript for Web developers</h2>
             <a class="info" href="#">View</a>
@@ -1009,7 +993,7 @@ margin-left:0px;
                                     </div>
                                     <div class="course-item">
                                     <div class="hovereffect">
-        <img class="img-responsive" src="images/work06.jpg" alt="">
+        <img class="img-responsive" src="images/work03.jpg" alt="">
         <div class="overlay">
             <h2>Advanced Power Electronics</h2>
             <a class="info" href="#">View</a>
@@ -1040,26 +1024,25 @@ margin-left:0px;
         </div>
     </div>
     <br>
-    <h6>Data Mining</h6>
+         <h6>Data Mining</h6>
                                     </div>
 
                                  </div>
                               </div>
                            </div>
-                        </div>
-                     </div>
+                       <!--  </div>
+                     </div> -->
                      
-                     <div class="panel-grid" id="pg-12-4" >
-                        <div class="panel-grid-cell" id="pgc-12-4-0" >
-                           <div class="so-panel widget widget_heading panel-first-child" id="panel-12-4-0-0" data-index="9">
-                              <div class="thim-widget-heading thim-widget-heading-base">
-                                 <div class="sc_heading text-left">
+                     <!-- <div class="" id="pg-12-4" > -->
+                        <!-- <div class="panel-grid-cell" id="pgc-12-4-0" > -->
+                           <div class="panel-grid so-panel panel-grid-cell widget widget_heading panel-first-child" id="panel-12-4-0-0" data-index="9">
+                              <div class="thim-widget-heading thim-widget-heading-base text-left">
                                     <h3 class="title">Events</h3>
-                                    <!-- <p class="sub-heading" style="">Upcoming Education Events to feed your brain.</p> -->
-                                    <span class="line"></span>
+                                    
+                                   
                                  </div>
-                              </div>
-                           </div>
+                              <!-- </div>
+                           </div> -->
                            <div class="so-panel widget widget_list-event panel-last-child" id="panel-12-4-0-1" data-index="10">
                               <div class="thim-widget-list-event thim-widget-list-event-base">
                                  <div class="thim-list-event">
@@ -1068,9 +1051,9 @@ margin-left:0px;
                                        
                                        <div class="image"><img src="images/include/event-4-450x233.jpg" alt="event-4" title="event-4"  width="450" height="233"></div>
                                        <div class="event-wrapper">
-                                          <h5 class="title">
-                                             <a href="#"> Build Education Website Using Bootstrap</a>
-                                          </h5>
+                                          <h7 ><b>
+                                             <a href="#"> Build Education Website Using Bootstrap</a><b>
+                                          </h7>
                                           <div class="meta">
                                              <div class="time">
                                                 <i class="fa fa-clock-o"></i>
@@ -1100,9 +1083,9 @@ margin-left:0px;
                                             <img src="images/include/event-7-450x233.jpg" alt="event-7" title="event-7"  width="450" height="233">
                                        </div>
                                        <div class="event-wrapper">
-                                          <h5 class="title">
-                                             <a href="#">Build Education Website Using Bootstrap</a>
-                                          </h5>
+                                          <h7 ><b>
+                                             <a href="#"> Build Education Website Using Bootstrap</a><b>
+                                          </h7>
                                           <div class="meta">
                                              <div class="time">
                                                 <i class="fa fa-clock-o"></i>
@@ -1135,15 +1118,17 @@ margin-left:0px;
                         <div class="panel-row-style-thim-bg-overlay siteorigin-panels-stretch thim-bg-overlay panel-row-style" style="padding-bottom: 85px;background-image: url(images/include/bg_lastest_new.jpg); background-position: center center; background-repeat: no-repeat;" data-stretch-type="full" data-siteorigin-parallax="{&quot;backgroundUrl&quot;:&quot;images/include/bg_lastest_new.jpg&quot;,&quot;backgroundSize&quot;:[1600,790],&quot;backgroundSizing&quot;:&quot;scaled&quot;,&quot;limitMotion&quot;:&quot;auto&quot;}" >
                            <div class="panel-grid-cell" id="pgc-12-5-0" >
                               <div class="so-panel widget widget_heading panel-first-child" id="panel-12-5-0-0" data-index="11">
-                                 <div style="padding: 30px 0px 0px;" class="panel-widget-style" >
+                                 <div  class="panel-widget-style" >
+                                 <div class="container">
                                     <div class="thim-widget-heading thim-widget-heading-base">
-                                       <div class="sc_heading text-left">
+                                       <div class=" text-left">
                                           <h3 style="color:#ffffff;" class="title">Latest Updates</h3>
                                           <!-- <p class="sub-heading" style="color:#ffffff;">Education news all over the world.</p> -->
                                           <span style="background-color:#ffffff" class="line"></span>
                                        </div>
                                     </div>
                                  </div>
+                              </div>
                               </div>
                               <div class="so-panel widget widget_carousel-post panel-last-child" id="panel-12-5-0-1" data-index="12">
                                  <div class="thim-widget-carousel-post thim-widget-carousel-post-base">
@@ -1219,7 +1204,7 @@ margin-left:0px;
                         <div class="panel-grid-cell" id="pgc-12-6-0" >
                            <div class="so-panel widget widget_heading panel-first-child" id="panel-12-6-0-0" data-index="13">
                               <div class="thim-widget-heading thim-widget-heading-base">
-                                 <div class="sc_heading text-center">
+                                 <div class=" text-center">
                                     <h3 class="title">What People Say</h3>
                                     <!-- <p class="sub-heading" style="">How real people said about Education Bootstrap Theme.</p> -->
                                     <span class="line"></span>
@@ -1233,40 +1218,35 @@ margin-left:0px;
                                        <div class="image"><img src="images/include/peter-100x100.jpg" alt="peter" title="peter"  width="100" height="100"></div>
                                        <div class="content">
                                           <h3 class="title">Peter Packer</h3>
-                                          <!-- <div class="regency">Front-end Developer</div> -->
-                                          <!-- <div class="description">“ LearnPress Bootstrap LMS Plugin designed with flexible & scalable eLearning system in mind. This Bootstrap eLearning Plugin comes up with 10+ addons (and counting) to extend the ability of this Bootstrap Learning Management System. This is incredible. ”</div> -->
+                                          
                                        </div>
                                     </div>
                                     <div class="item">
                                        <div class="image"><img src="images/include/manuel-100x100.jpg" alt="manuel" title="manuel"  width="100" height="100"></div>
                                        <div class="content">
                                           <h3 class="title">Manuel</h3>
-                                          <!-- <div class="regency">Designer</div> -->
-                                          <!-- <div class="description">“ LearnPress is a comprehensive LMS solution for Bootstrap. This Bootstrap LMS Plugin can be used to easily create & sell courses online. Each course curriculum can be made with lessons & quizzes which can be managed with easy-to-use user interface, it never gets easier with LearnPress. ”</div> -->
+                                        
                                        </div>
                                     </div>
                                     <div class="item">
                                        <div class="image"><img src="images/include/john-doe-100x100.jpg" alt="john-doe" title="john-doe"  width="100" height="100"></div>
                                        <div class="content">
                                           <h3 class="title">John Doe</h3>
-                                          <!-- <div class="regency">Art director</div> -->
-                                          <!-- <div class="description">“ LearnPress is a Bootstrap complete solution for creating a Learning Management System (LMS). It can help me to create courses, lessons and quizzes and manage them as easy as I want. I've learned a lot, and I highly recommend it. Thank you. ”</div> -->
+                                        
                                        </div>
                                     </div>
                                     <div class="item">
                                        <div class="image"><img src="images/include/elsie-100x100.jpg" alt="elsie" title="elsie"  width="100" height="100"></div>
                                        <div class="content">
                                           <h3 class="title">Elsie</h3>
-                                          <!-- <div class="regency">Copyrighter</div> -->
-                                          <!-- <div class="description">“ You don't need a whole ecommerce system to sell your online courses. Paypal, Stripe payment methods integration can help you sell your courses out of the box. In the case you wanna use WooCommerce, this awesome Bootstrap LMS Plugin will serve you well too. ”</div> -->
+                                        
                                        </div>
                                     </div>
                                     <div class="item">
                                        <div class="image"><img src="images/include/anthony-100x100.jpg" alt="anthony" title="anthony"  width="100" height="100"></div>
                                        <div class="content">
                                           <h3 class="title">Anthony</h3>
-                                          <!-- <div class="regency">CEO at #</div> -->
-                                          <!-- <div class="description">“ Education WP Theme is a comprehensive LMS solution for Bootstrap Theme. This beautiful theme based on LearnPress - the best Bootstrap LMS plugin. Education WP theme will bring you the best LMS experience ever with super friendly UX and complete eLearning features. ”</div> -->
+                                          
                                        </div>
                                     </div>
                                  </div>
@@ -1311,9 +1291,9 @@ margin-left:0px;
                         </div>
                      </div>
                   </div>
-               </div>
+               </div></b></b></h7></div></div>
                <!-- #main-content -->
-               <footer id="colophon" class="site-footer has-footer-bottom">
+              <footer id="colophon" class="site-footer ">
                   <div class="footer">
                      <div class="container">
                         <div class="row">
@@ -1325,14 +1305,13 @@ margin-left:0px;
                                        <div class="so-panel widget widget_black-studio-tinymce widget_black_studio_tinymce panel-first-child" id="panel-w575924cfed45d-0-0-0" data-index="0">
                                           <div class="textwidget">
                                              <div class="thim-footer-location">
-                                                <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="sticky-logo"><h4 style="color:white;">Knowledge time</h4></a>
-                                                <p class="info"><i class="fa fa-phone"></i><a href="#">(00) 123 456 789</a></p>
+                                                <a href="#" title="Education WP - Education Bootstrap Theme" rel="home" class="sticky-logo"><h4 style="color:white;">KnowledgeTime</h4></a>
+                                                <p class="info"><i class="fa fa-phone"></i><a href="#">+1(514)692-9467</a></p>
                                                 <p class="info">
                                                    <i class="fa fa-envelope"></i>
                                                    <a href="#">
                                                       <span class="__cf_email__"></span>
                                                       contact@knowledgetime.org</a>
-                                                   
                                                 </p>
                                              </div>
                                           </div>
@@ -1344,7 +1323,7 @@ margin-left:0px;
                                                    <li><a class="facebook hasTooltip" href="#" target="_self"><i class="fa fa-facebook"></i></a></li>
                                                    <li><a class="twitter hasTooltip" href="#" target="_self" ><i class="fa fa-twitter"></i></a></li>
                                                    <li><a class="google-plus hasTooltip" href="#" target="_self" ><i class="fa fa-google-plus"></i></a></li>
-                                                   <li><a class="pinterest hasTooltip" href="#" target="_self" ><i class="fa fa-pinterest"></i></a></li>
+                                                   <li><a class="linkedin hasTooltip" href="#" target="_self" ><i class="fa fa-linkedin"></i></a></li>
                                                 </ul>
                                              </div>
                                           </div>
@@ -1352,15 +1331,15 @@ margin-left:0px;
                                     </div>
                                     <div class="panel-grid-cell" id="pgc-w575924cfed45d-0-1" >
                                        <div class="so-panel widget widget_nav_menu panel-first-child panel-last-child" id="panel-w575924cfed45d-0-1-0" data-index="2">
-                                          <h3 class="widget-title">Company</h3>
-                                          <div class=" megaWrapper">
-                                             <ul id="menu-company" class="menu">
-                                                <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="aboutus.html"><span data-hover="About Us">About Us</span></a></li>
+                                          <h3 class="widget-title" align="left">Company</h3>
+                                          <!-- <div class=" megaWrapper"> -->
+                                             <ul id="menu-company" class=" megaWrappermenu" >
+                                                <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard" ><a href="#"><span data-hover="About Us">About Us</span></a></li>
                                                 <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="#"><span data-hover="Blog">Blog</span></a></li>
-                                                <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="contact_us.html"><span data-hover="Contact">Contact</span></a></li>
+                                                <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="#"><span data-hover="Contact">Contact</span></a></li>
                                                 <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="#"><span data-hover="Become a Teacher">Become a Teacher</span></a></li>
                                              </ul>
-                                          </div>
+                                          <!-- </div> -->
                                        </div>
                                     </div>
                                     <div class="panel-grid-cell" id="pgc-w575924cfed45d-0-2" >
@@ -1412,7 +1391,7 @@ margin-left:0px;
                         <div class="copyright-content">
                            <div class="row">
                               <div class="col-sm-6">
-                                 <p class="text-copyright">© 2016 Knowledge Time. All rights reserved.</p>
+                                 <p class="text-copyright">© 2016 KnowledgeTime. All rights reserved.</p>
                               </div>
                               <div class="col-sm-6 text-right">
                                  <aside id="nav_menu-14" class="widget widget_nav_menu">
@@ -1430,45 +1409,11 @@ margin-left:0px;
                      </div>
                   </div>
                </footer>
-               <!-- #colophon -->
-            </div>
-            <!--end main-content-->
-            <!-- Footer Bottom -->
-            <div class="footer-bottom">
-               <div class="container">
-                  <aside id="siteorigin-panels-builder-7" class="widget widget_siteorigin-panels-builder footer_bottom_widget">
-                     <div id="pl-w56a872ba25776">
-                        <style scoped>#pg-w56a872ba25776-0 , #pl-w56a872ba25776 .panel-grid-cell .so-panel:last-child { margin-bottom:0px } #pg-w56a872ba25776-0 .panel-grid-cell { float:none } #pl-w56a872ba25776 .panel-grid-cell .so-panel { margin-bottom:30px } #pg-w56a872ba25776-0 { margin-left:-15px;margin-right:-15px } #pg-w56a872ba25776-0 .panel-grid-cell { padding-left:15px;padding-right:15px } @media (max-width:767px){ #pg-w56a872ba25776-0 .panel-grid-cell { float:none;width:auto } #pl-w56a872ba25776 .panel-grid , #pl-w56a872ba25776 .panel-grid-cell {  }  } </style>
-                        <div class="panel-grid" id="pg-w56a872ba25776-0" >
-                           <div class="panel-row-style-thim-bg-overlay-color-half siteorigin-panels-stretch thim-bg-overlay-color-half panel-row-style" style="min-height: 450px;background-image: url(images/include/bg-footer.jpg);background-size: cover;" data-stretch-type="full" >
-                              <div class="panel-grid-cell" id="pgc-w56a872ba25776-0-0" >
-                                 <div class="so-panel widget widget_heading panel-first-child" id="panel-w56a872ba25776-0-0-0" data-index="0">
-                                    <div class="thim-widget-heading thim-widget-heading-base">
-                                       <div class="sc_heading text-center">
-                                          <h3 style="color:#333333;" class="title">Become an instructor?</h3>
-                                          <p class="sub-heading" style="color:#333333;">Join thousand of instructors </p>
-                                          <span class="line"></span>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="so-panel widget widget_button panel-last-child" id="panel-w56a872ba25776-0-0-1" data-index="1">
-                                    <div class="thim-widget-button thim-widget-button-base"><a class="widget-button  normal" href="#" style="" data-hover="">Get Started Now</a></div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </aside>
-               </div>
-            </div>
-         </div>
-         <!-- end content-pusher-->
-         <a href="#" id="back-to-top">
+                  <a href="#" id="back-to-top">
          <i class="fa fa-chevron-up"></i>
          </a>
-      </div>
-      <!-- end wrapper-container -->
-      <div class="gallery-slider-content"></div>
+        
+      
       <!-- LearnPress JavaScript -->
       <script type="text/javascript">jQuery(function ($) {
          ;
@@ -1488,19 +1433,10 @@ margin-left:0px;
       </script>
       <!-- Memberships powered by Paid Memberships Pro v1.8.9.3.
          -->
-      <div id="tp_style_selector">
-         
-            <div class="input-box">
-               <button class="tp-btn tp-chameleon-more-demo" data-text="More Demo" data-active="All Demo">More Demo</button>
-               <br class="clear_fix">
-            </div>
-            <div class="tp_chameleon_demos">
-            </div>
-         </div>
-         
-      </div>
+     
+       
       
-      <div id="tp_chameleon_list_google_fonts"></div>
+     
       <script data-cfasync="false" type="text/javascript">
          window.onload = function () {
             setTimeout(function () {
