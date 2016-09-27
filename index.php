@@ -342,12 +342,20 @@ margin-left:0px;
                                              <p class="login-username">
                                                 <label for="thim_login">E-mail</label>
                                                 <input type="text" placeholder="E-mail" name="email" id="email" class="input" value="E-mail" size="20" />
-                                             </p><br>
+                                             </p>
                                              <p class="login-radio" align="left"><b>Rigester as :<t></b>
                                               <input type="radio" name="rigester" value="Student" checked> Student
                                               <input type="radio" name="rigester" value="Expert"> Expert
                                               <input type="radio" name="rigester" value="University"> University
-                                              </p><br>
+                                              </p>
+                                              <p class="login-username">
+                                                <label for="thim_login">City</label>
+                                                <input type="text" placeholder="City" name="City" id="City" class="input" value="" size="20" />
+                                             </p>
+                                             <p class="login-username">
+                                                <label for="thim_login">Phone no.</label>
+                                                <input type="text" placeholder="Phone no." name="Phone no" id="Phone no" class="input" value="" size="20" />
+                                             </p>
                                              <p class="login-password">
                                                 <label for="thim_pass">Password</label>
                                                 <input type="password" placeholder="Password" name="pwd" id="con-pass" class="input" value="Password" size="3" />

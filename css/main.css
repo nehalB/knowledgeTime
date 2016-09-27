@@ -223,7 +223,7 @@ div#preload .cssload-inner.cssload-three {
 .form-bottom {
     padding: 25px 25px 30px 25px;
     background: #fff;
-    background: rgba(233, 30, 30, 0.95)!important;
+    background: rgba(49, 28, 28, 0.07)!important;
     -moz-border-radius: 0 0 4px 4px;
     -webkit-border-radius: 0 0 4px 4px;
     border-radius: 0 0 4px 4px;
@@ -233,7 +233,7 @@ div#preload .cssload-inner.cssload-three {
     overflow: hidden;
     padding: 0 25px 15px 25px;
     background: #fff;
-    background: rgba(233, 30, 30, 0.95)!important;
+    background: rgba(49, 28, 28, 0.07)!important;
     -moz-border-radius: 4px 4px 0 0;
     -webkit-border-radius: 4px 4px 0 0;
     border-radius: 4px 4px 0 0;
