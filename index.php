@@ -1,3 +1,48 @@
+<?php
+error_reporting(0);
+session_start();
+include_once 'db_function.php';
+
+if(isset($_REQUEST['signup']))
+{
+    /***************************** Step 1 : Case 1 ****************************/
+    //Add the new user information in the database
+    /*$result=executeQuery("select max(stdid) as std from student");
+    $r=mysql_fetch_array($result);
+    if(is_null($r['std']))
+        $newstd=1;
+    else
+        $newstd=$r['std']+1;
+*/
+    echo 'IN FIRST IF';
+    $result=executeQuery("select email as email from users where email='".htmlspecialchars($_REQUEST['email'],ENT_QUOTES)."';");
+
+    // $_GLOBALS['message']=$newstd;
+    if(empty($_REQUEST['firstName'])||empty ($_REQUEST['pwd'])||empty ($_REQUEST['email']))
+    {
+        $_GLOBALS['message']="Some of the required Fields are Empty";
+    }else if(mysql_num_rows($result)>0)
+    {
+        $_GLOBALS['message']="This Email has already been registered. Try with new Email address.";
+    }
+    else
+    {
+        $query="insert into users (name, email, password, role_id, city, phone) values('".htmlspecialchars($_REQUEST['firstName'],ENT_QUOTES)."', '".htmlspecialchars($_REQUEST['email'],ENT_QUOTES)."',ENCODE('".htmlspecialchars($_REQUEST['pwd'],ENT_QUOTES)."','KTPassword'),'".htmlspecialchars($_REQUEST['registerAs'],ENT_QUOTES)."','".htmlspecialchars($_REQUEST['city'],ENT_QUOTES)."','".htmlspecialchars($_REQUEST['phone'],ENT_QUOTES)."')";
+        if(!@executeQuery($query)) {
+            $_GLOBALS['message'] = mysqli_error();
+            echo mysqli_error();
+        }
+        else
+        {
+            $success=true;
+            $_GLOBALS['message']="Your account has been created successfully! Click <a href=\"#/wp-login.php\">Here</a> to LogIn";
+            // header('Location: index.php');
+        }
+    }
+    closedb();
+}
+?>
+
 <!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/WebPage" lang="en-US" prefix="og: http://ogp.me/ns#">
    <head>
@@ -317,7 +362,7 @@ margin-left:0px;
                                              <a class="lost-pass-link" href="#/account/?action=lostpassword" title="Lost Password">Lost your password?</a>
                                              <p class="login-remember"><label><input name="rememberme" type="checkbox" id="rememberme" value="forever" /> Remember me</label></p>
                                              <p class="login-submit">
-                                                <input type="submit" name="wp-submit" id="wp-submit" class="button-primary" value="Login" />
+                                                <input type="submit" name="login" id="login" class="button-primary" value="Login" />
                                                 <input type="hidden" name="redirect_to" value="#" />
                                                 <br><br>
                                                <!--  <a class="" href="#thim-popup-login2" title="Lost Password">have no account?</a>
@@ -330,36 +375,44 @@ margin-left:0px;
                                  </div>
                                  <div id="thim-popup-login1" class="has-shortcode">
                                     <div class="thim-login-container">
-                                       
-                                            
+
                                        <div class="thim-login" align="center">
                                           <h2 class="title" align="center">Register Now</h2>
                                           <form name="loginform" id="loginform" action="#/wp-login.php" method="post">
                                              <p class="login-username">
-                                                <label for="thim_login">Username</label>
-                                                <input type="text" placeholder="Username" name="Username" id="Username" class="input" value="" size="20" />
+                                                <input type="text" placeholder="First Name" name="firstName" id="firstName" class="input" size="20" />
                                              </p>
                                              <p class="login-username">
-                                                <label for="thim_login">E-mail</label>
-                                                <input type="text" placeholder="E-mail" name="email" id="email" class="input" value="E-mail" size="20" />
-                                             </p><br>
+                                                <input type="text" placeholder="E-mail" name="email" id="email" class="input" size="20" />
+                                             </p>
                                              <p class="login-radio" align="left"><b>Rigester as :<t></b>
-                                              <input type="radio" name="rigester" value="Student" checked> Student
-                                              <input type="radio" name="rigester" value="Expert"> Expert
-                                              <input type="radio" name="rigester" value="University"> University
-                                              </p><br>
-                                             <p class="login-password">
-                                                <label for="thim_pass">Password</label>
-                                                <input type="password" placeholder="Password" name="pwd" id="con-pass" class="input" value="Password" size="3" />
+                                              <input type="radio" name="rigesterAs" value="1" checked> Student
+                                              <input type="radio" name="rigesterAs" value="2"> Expert
+                                              <input type="radio" name="rigesterAs" value="3"> University
+                                              </p>
+                                              <p class="login-username">
+                                                <input type="text" placeholder="City" name="city" id="city" class="input" size="20" />
+                                             </p>
+                                             <p class="login-username">
+                                                <input type="text" placeholder="Phone no." name="pNumber" id="pNumber" class="input" size="20" />
                                              </p>
                                              <p class="login-password">
-                                                <label for="thim_pass">Confirm-Password</label>
-                                                <input type="password" placeholder="Confirm-Password"  name="con-pwd" id="con-pass" class="input" value="Confirm-Password" size="3" />
+                                                <input type="password" placeholder="Password" name="pwd" id="con-pass" class="input" size="3" />
+                                             </p>
+                                             <p class="login-password">
+                                                <input type="password" placeholder="Confirm-Password"  name="con-pwd" id="con-pass" class="input" size="3" />
                                              </p>
                                              <p class="login-submit">
-                                                <input type="submit" name="wp-submit" id="wp-submit" class="button-primary" value="Sign-Up" />
+                                                <input type="submit" name="signup" id="signup" class="button-primary" value="Sign-Up" />
                                                 <input type="hidden" name="redirect_to" value="#" />
                                              </p>
+
+                                              <?php
+
+                                              if($_GLOBALS['message']) {
+                                                  echo "<div class=\"message\">".$_GLOBALS['message']."</div>";
+                                              }
+                                              ?>
                                           </form>
                                           </div>
                                     </div>
@@ -371,10 +424,7 @@ margin-left:0px;
                                           </div>
                                     </div>
                                  </div>
-                                 </li>
-                                 <!-- </div> -->
-                                 
-                              <!-- </div> -->
+                                 </header>
                            </aside>
 
 
