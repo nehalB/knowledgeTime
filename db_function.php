@@ -16,12 +16,12 @@ function executeQuery($query){
 
     if(!($conn = @mysqli_connect($db_host,$db_username,$db_pass)))
         $message = "Cannot connect to server";
-    if(!@mysql_selectdb($db_name,$conn))
+    if(!@mysqli_select_db($db_name,$conn))
         $message = "Cannot select database";
 
-    $result = mysql_query($query,$conn);
+    $result = mysqli_error($query,$conn);
     if(!$result)
-        $message = "Error while executing query. <br/>Mysql Error: ".mysql_error();
+        $message = "Error while executing query. <br/>Mysql Error: ".mysqli_error();
     else
         return $result;
 }
@@ -30,5 +30,5 @@ function closedb(){
 
     global $conn;
     if(!$conn)
-        mysql_close($conn);
+        mysqli_close($conn);
 }
