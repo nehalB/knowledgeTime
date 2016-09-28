@@ -63,7 +63,8 @@ if(isset($_POST['signup']))
          var ajaxurl = "#/wp-admin/admin-ajax.php";
          /* ]]> */
       </script>
-      <title>KnowledgeTime</title>
+       <script type="text/javascript" src="js/form-validations.js" ></script>
+       <title>KnowledgeTime</title>
 
 <link rel="apple-touch-icon" sizes="180x180" href="logo/favicons/apple-touch-icon.png">
 <link rel="icon" type="image/png" href="logo/favicons/favicon-32x32.png" sizes="32x32">
@@ -389,7 +390,7 @@ margin-left:0px;
                                               ?>
 
                                               <h2 class="title" align="center">Register Now</h2>
-                                          <form name="signupform" id="signupform"  action="index.php" method="post" >
+                                          <form name="signupForm" id="signupForm"  action="index.php" method="post" onsubmit="return validateForm('signupForm')" >
                                              <p class="login-username" align="left">
 
                                                 <input type="text" placeholder="First Name" name="firstName" id="firstName" class="input"  />
@@ -409,10 +410,10 @@ margin-left:0px;
                                                 <input type="text" placeholder="Phone no." name="pNumber" id="pNumber" class="input"  />
                                              </p>
                                              <p class="login-password" align="left">
-                                                <input type="password" placeholder="Password" name="pwd" id="con-pass" class="input" />
+                                                <input type="password" placeholder="Password" name="pwd" id="pwd" class="input" />
                                              </p>
                                              <p class="login-password" align="left">
-                                                <input type="password" placeholder="Confirm-Password"  name="con-pwd" id="con-pass" class="input" />
+                                                <input type="password" placeholder="Confirm-Password"  name="confirmpwd" id="confirmpwd" class="input" />
                                              </p>
                                              <p class="login-submit" align="left">
                                                 <input type="submit" name="signup" id="signup" class="button-primary" value="Sign-Up" />
