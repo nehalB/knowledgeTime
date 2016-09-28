@@ -181,11 +181,13 @@ var panelsStyles = {"fullContainer":"body"};
                                                          <h3 class="widget-title">List of Courses</h3>
                                                          <div class=" megaWrapper">
                                                             <ul id="menu-about-courses" >
-                                                               <li><a class="black blue" href="#">Software engineering</a> </li>
-                                                               <li><a class="black blue" href="#">Mechanical engineering </a></li>
-                                                               <li><a class="black blue" href="#">Data Analysis </a></li>
-                                                               <li><a class="black blue" href="#"> Programming with Python</a></li>
-                                                               <li><a class="black blue" href="#">Data analysis using register </a></li>
+                                                                <li><a class="black blue" href="#">Programming with Python</a> </li>
+                                                                <li><a class="black blue" href="#">Data Analysis</a></li>
+                                                                <li><a class="black blue" href="#">Machine Learning</a></li>
+                                                                <li><a class="black blue" href="#">HTML CSS and Javascript</a></li>
+                                                                <li><a class="black blue" href="#"> Programmable Microfluidics</a></li>
+                                                                <li><a class="black blue" href="#">Advanced Power Electronics</a></li>
+                                                                <li><a class="black blue" href="#">Big Data Analysis</a></li>
                                                             </ul>
                                                          </div>
                                                       </div>
@@ -193,14 +195,14 @@ var panelsStyles = {"fullContainer":"body"};
                                                    <div class="panel-grid-cell" id="pgc-w56d3feac8c634-0-1" >
                                                       <div class="so-panel widget widget_courses panel-first-child panel-last-child" id="panel-w56d3feac8c634-0-1-0" data-index="1">
                                                          <div class="thim-widget-courses thim-widget-courses-base">
-                                                            <h3 class="widget-title">New Course</h3>
+                                                            <h3 class="widget-title"> New Course </h3>
                                                             <div class="thim-course-megamenu">
                                                                <div class="lpr_course course-grid-1">
                                                                   <div class="course-item">
                                                                      <div class="course-thumbnail"><a href="#.#.com/courses/learnpress-101/" ><img src="images/include/course-4-450x450.jpg" alt="" title="course-4"  width="450" height="450"></a></div>
                                                                      <div class="thim-course-content">
                                                                         <h2 class="course-title">
-                                                                           <a href="#.#.com/courses/learnpress-101/"> Introduction to OOPS</a>
+                                                                           <a href="#.#.com/courses/learnpress-101/"> Fundamentals of Electronics</a>
                                                                         </h2>
                                                                         <div class="course-meta">
                                                                            <div class="course-price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
@@ -241,10 +243,10 @@ var panelsStyles = {"fullContainer":"body"};
                                     <div class="thim-login-container">
                                        
                                        <div class="thim-login">
-                                          <h2 class="title">Login</h2>
+                                          <h2 class="title">Log In</h2>
                                           <form name="loginform" id="loginform" action="#/wp-login.php" method="post">
                                              <p class="login-username">
-                                                <label for="thim_login">Username or email</label>
+                                                <label for="thim_login">Username or Email</label>
                                                 <input type="text" name="log" id="thim_login" class="input" value="" size="20" />
                                              </p>
                                              <p class="login-password">
@@ -263,7 +265,7 @@ var panelsStyles = {"fullContainer":"body"};
                               <div class="thim-widget-login-popup thim-widget-login-popup-base">
                                  <div id="" class="thim-link-login thim-login-popup1">
                                     <!-- <a class="register" href="#/account/?action=register">Register</a> -->
-                                    <a class="login logsize" href="#">Dont have an account?</a>
+                                    <a class="login logsize" href="#">Don't have an account?</a>
                                  </div>
                                  <div id="thim-popup-login1" class="has-shortcode">
                                     <div class="thim-login-container">
@@ -290,7 +292,7 @@ var panelsStyles = {"fullContainer":"body"};
                                                 <input type="password" placeholder="Password" name="pwd" id="con-pass" class="input" value="Password" size="3" />
                                              </p>
                                              <p class="login-password">
-                                                <label for="thim_pass">Confirm-Password</label>
+                                                <label for="thim_pass">Confirm Password</label>
                                                 <input type="password" placeholder="Confirm-Password"  name="con-pwd" id="con-pass" class="input" value="Confirm-Password" size="3" />
                                              </p>
                                              <p class="login-submit">
@@ -366,11 +368,13 @@ var panelsStyles = {"fullContainer":"body"};
                                                          <h3 class="widget-title">List of Courses</h3>
                                                          <div class=" megaWrapper">
                                                             <ul id="menu-about-courses" >
-                                                               <li><a class="black blue" href="#">Softweare engineering</a> </li>
-                                                               <li><a class="black blue" href="#">Mechanical engineering </a></li>
-                                                               <li><a class="black blue" href="#">Data Analysis </a></li>
-                                                               <li><a class="black blue" href="#"> Programming with Python</a></li>
-                                                               <li><a class="black blue" href="#">Data analysis using register </a></li>
+                                                                <li><a class="black blue" href="#">Programming with Python</a> </li>
+                                                                <li><a class="black blue" href="#">Data Analysis</a></li>
+                                                                <li><a class="black blue" href="#">Machine Learning</a></li>
+                                                                <li><a class="black blue" href="#">HTML CSS and Javascript</a></li>
+                                                                <li><a class="black blue" href="#"> Programmable Microfluidics</a></li>
+                                                                <li><a class="black blue" href="#">Advanced Power Electronics</a></li>
+                                                                <li><a class="black blue" href="#">Big Data Analysis</a></li>
                                                             </ul>
                                                          </div>
                                                       </div>
@@ -474,21 +478,28 @@ var panelsStyles = {"fullContainer":"body"};
     
 <article id="post-2901" class="post-2901 page type-page status-publish hentry pmpro-has-access">
     <div class="entry-content">
-        <div id="pl-2901"><div class="panel-grid" id="pg-2901-0" ><div class="panel-grid-cell" id="pgc-2901-0-0" ><div class="so-panel widget widget_heading panel-first-child panel-last-child" id="panel-2901-0-0-0" data-index="0"><div style="padding: 30px 0px 0px;" class="panel-widget-style" ><div class="thim-widget-heading thim-widget-heading-base"><div class=" text-center"><h3 class="title">Our Story</h3><p align="justify" class="sub-heading" ><font color="black">We are young entrepreneurs with a vision to change the face of higher education in India and other disadvantaged parts of the world by providing world-class education to anyone who wishes to learn. KnowledgeTime is a web-basedplatform that is designed to offerinnovative and easily accessible lectures delivered by accomplished professors and industry experts. This online source allows students the unique opportunity to learn the subjects of their interest at their own convenient time and pace. Our goalfor the young minds is to reach their dreams easier and faster with the leastexpense. KnowledgeTimeoffers all students an equal opportunity to enhance their creative thinking, find their passion, and gain the required skills for their dream career. </font></p></div></div></div></div></div></div><div class="panel-grid" id="pg-2901-1" ><div class="panel-grid-cell" id="pgc-2901-1-0" ><div class="so-panel widget widget_counters-box panel-first-child panel-last-child" id="panel-2901-1-0-0" data-index="1"><div class="thim-widget-counters-box thim-widget-counters-box-base"><div class="counter-box  about-us" style=""><div class="content-box-percentage">
+        <div id="pl-2901"><div class="panel-grid" id="pg-2901-0" ><div class="panel-grid-cell" id="pgc-2901-0-0" ><div class="so-panel widget widget_heading panel-first-child panel-last-child" id="panel-2901-0-0-0" data-index="0"><div style="padding: 30px 0px 0px;" class="panel-widget-style" ><div class="thim-widget-heading thim-widget-heading-base"><div class=" text-center"><h3 class="title">Our Story</h3><p align="justify" class="sub-heading" ><font color="black">Our aim being a company is to deliver quality learning platform to everyone through online resources. Highly qualified lecturers, professors and industrialists are our backbone.  KnowledgeTime is a web-based platform that is designed to offer innovative and easily accessible lectures delivered by accomplished professors and industry experts. This online source allows students the unique opportunity to learn the subjects of their interest at their own convenient time and pace. Our goal for the young minds is to reach their dreams easier and faster with the least expense. KnowledgeTime offers all students an equal opportunity to enhance their creative thinking, find their passion, and gain the required skills for their dream career. </font></p></div></div></div></div></div></div><div class="panel-grid" id="pg-2901-1" ><div class="panel-grid-cell" id="pgc-2901-1-0" ><div class="so-panel widget widget_counters-box panel-first-child panel-last-child" id="panel-2901-1-0-0" data-index="1"><div class="thim-widget-counters-box thim-widget-counters-box-base"><div class="counter-box  about-us" style=""><div class="content-box-percentage">
 		</div></div></div></div></div></div><br><br> 
 
       <div class="panel-grid" id="pg-2901-3" ><div class="panel-grid-cell" id="pgc-2901-3-0" ><div class="so-panel widget widget_text panel-first-child panel-last-child" id="panel-2901-3-0-0" data-index="7"><h3 class="widget-title">Why KnowledgeTime</h3>			<div class="textwidget"><ul style="list-style-type:disc">
-	                         <li><font color="black"> It gives latest practical based knowledge fromthe top-leading experts</font></li>
-	                         <li><font color="black">Livelectures with great expertise on the subjects</font></li>
-	                         <li><font color="black">Uses latestweb-based design of advanced courses</font></li>
-	                         <li><font color="black">Receive one-on-one instruction from instructors, tutors and peers</font></li>
+	                         <li><font color="black"> Live lectures with great expertise on the subjects </font></li>
+	                         <li><font color="black">Knowledge on latest technologies in different fields from experts</font></li>
+	                         <li><font color="black">Talks and seminars from the visionaries</font></li>
+	                         <li><font color="black">Excellent online platform to solve challenging assignments and quizzes</font></li>
 	                         <li><font color="black">Uses peer assessment methods where students can provide feedback and engage in peer-to-peer teaching </font></li>
-                           <li><font color="black"> Complete online assignments, quizzes and projects </font></li>
+                           <li><font color="black"> Receive one-on-one instruction from instructors,tutors and peers </font></li>
+                          <li><font color="black"> Projects supervision from the global experts </font></li>
                            <li><font color="black"> Gives second chances. And third. And fourth! Students can re-learn and re-submit their quizzes or assignments</font></li>
                            
 						</ul></div>
-		</div></div><div class="panel-grid-cell" id="pgc-2901-3-1" >&nbsp;</div><div class="panel-grid-cell" id="pgc-2901-3-2" ><div class="so-panel widget widget_text panel-first-child panel-last-child" id="panel-2901-3-2-0" data-index="8"><h3 class="widget-title">How it Works</h3>			<div class="textwidget"><font color="black">KnowledgeTime isan online platform thatworks in collaboration with world-leading instructors, industry experts and visionaries to give quality education to all.</font>
- 		</div>
+		</div></div><div class="panel-grid-cell" id="pgc-2901-3-1" >&nbsp;</div><div class="panel-grid-cell" id="pgc-2901-3-2" ><div class="so-panel widget widget_text panel-first-child panel-last-child" id="panel-2901-3-2-0" data-index="8"><h3 class="widget-title">How it Works</h3>		<div class="textwidget"><ul style="list-style-type:disc">
+                          <li><font color="black"> Lectures from best academicians and industry experts </font></li>
+                          <li><font color="black"> Demonstrations of practical applications of courses </font></li>
+                          <li><font color="black"> Online challenging assignments and projects </font></li>
+                          <li><font color="black"> Up-to-date technology to deliver lectures using online platform, Wacom slates and VR environments to bring online lectures close to classroom experience </font></li>
+                          <li><font color="black"> Animation and videos to understand the physicality of the subject </font></li>
+                          <li><font color="black"> e-library, and online journals</font></li>
+                                                </ul></div>
 		</div></div></div>
       <div class="panel-grid" id="pg-2901-4" >
     <div class="siteorigin-panels-stretch panel-row-style" style="min-height: 460px;background-image: url(images/include/bg-parallax-about-us.jpg); background-position: center center; background-repeat: no-repeat;" data-stretch-type="full" data-siteorigin-parallax="{&quot;backgroundUrl&quot;:&quot;images/include/bg-parallax-about-us.jpg&quot;,&quot;backgroundSize&quot;:[1600,650],&quot;backgroundSizing&quot;:&quot;scaled&quot;,&quot;limitMotion&quot;:&quot;auto&quot;}" >
@@ -500,7 +511,7 @@ var panelsStyles = {"fullContainer":"body"};
         <div class="so-panel widget widget_heading panel-first-child panel-last-child" id="panel-2901-5-0-0" data-index="9">
             <div class="thim-widget-heading thim-widget-heading-base">
                 <div class=" text-center">
-                    <h3 class="title">Meet Our Team</h3>
+                    <h3 class="title">Meet our team</h3>
                     <p class="sub-heading" style=""></p>
                     <span class="line"></span>
                 </div>
