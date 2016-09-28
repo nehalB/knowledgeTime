@@ -484,11 +484,14 @@ margin-left:0px;
                                                          <h3 class="widget-title">List of Courses</h3>
                                                          <div class=" megaWrapper">
                                                             <ul id="menu-about-courses" >
-                                                               <li><a class="black blue" href="#">Softweare engineering</a> </li>
-                                                               <li><a class="black blue" href="#">Mechanical engineering </a></li>
-                                                               <li><a class="black blue" href="#">Data Analysis </a></li>
-                                                               <li><a class="black blue" href="#"> Programming with Python</a></li>
-                                                               <li><a class="black blue" href="#">Data analysis using register </a></li>
+                                                               <li><a class="black blue" href="#">Programming with Python</a> </li>
+                                                               <li><a class="black blue" href="#">Data Analysis</a></li>
+                                                                <li><a class="black blue" href="#"> Machine Learning</a></li>
+                                                               <li><a class="black blue" hr <li><a class="black blue" href="#">HTML CSS and Javascript for Web Developers</a></li>ef="#">Machine Learning</a></li>
+                                                               <li><a class="black blue" href="#"> Programmable Microfluidics</a></li>
+                                                                <li><a class="black blue" href="#">Advanced Power Electronics</a></li>
+                                                                <li><a class="black blue" href="#">Big Data Analysis</a></li>
+
                                                             </ul>
                                                          </div>
                                                       </div>
