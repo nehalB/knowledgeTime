@@ -1,2 +1,8 @@
 # Knowledgetime_Website
-This contains Knowledgetime website
+
+Requirements for system development:
+
+1) PHP storm 5.6 JetBrains
+2) WAMPServer-latest version
+
+
