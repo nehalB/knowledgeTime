@@ -9,26 +9,29 @@ include_once 'db_connect.php';
 
 $conn=false;
 
-function executeQuery($query){
+function executeQuery($query)
+{
 
-    global $conn,$db_host,$db_name,$db_username,$db_pass;
+    global $conn, $db_host, $db_name, $db_username, $db_pass;
     global $message;
 
-    if(!($conn = @mysqli_connect($db_host,$db_username,$db_pass)))
-        $message = "Cannot connect to server";
-    if(!@mysql_selectdb($db_name,$conn))
-        $message = "Cannot select database";
+    $conn = mysqli_connect($db_host,$db_username,$db_pass, $db_name);
 
-    $result = mysql_query($query,$conn);
-    if(!$result)
-        $message = "Error while executing query. <br/>Mysql Error: ".mysql_error();
-    else
-        return $result;
+    // Check connection
+    if (!$conn) {
+        die("Connection failed: " . mysqli_connect_error());
+    }
+    if ($result = mysqli_query($conn, $query)) {
+        $message = "query fired successfully!";
+    } else {
+       $message = "Error while executing query.<br/>Mysql Error: ".mysqli_error($conn);
+    }
+    return $result;
 }
 
 function closedb(){
 
     global $conn;
     if(!$conn)
-        mysql_close($conn);
+        mysqli_close($conn);
 }

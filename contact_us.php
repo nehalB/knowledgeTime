@@ -1,4 +1,5 @@
-
+<?php
+?>
 <!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/WebPage" lang="en-US" prefix="og: http://ogp.me/ns#">
 <head>
@@ -620,7 +621,7 @@ var panelsStyles = {"fullContainer":"body"};
     
   
     
-</script><div id="tp_chameleon_list_google_fonts"></div>      <script data-cfasync="false" type="text/javascript">
+</section><div id="tp_chameleon_list_google_fonts"></div>      <script data-cfasync="false" type="text/javascript">
         window.onload = function () {
           setTimeout(function () {
             var body = document.getElementById("thim-body"),
