@@ -1,5 +1,4 @@
-<?php
-?>
+
 <!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/WebPage" lang="en-US" prefix="og: http://ogp.me/ns#">
 <head>
@@ -181,10 +180,12 @@ var panelsStyles = {"fullContainer":"body"};
                                                          <h3 class="widget-title">List of Courses</h3>
                                                          <div class=" megaWrapper">
                                                             <ul id="menu-about-courses" >
-                                                               <li><a class="black blue" href="#">Software engineering</a> </li>
+                                                               <li><a class="black blue" href="Machine Learning.php">Machine Learning</a> </li>                                                               
+                                                               <li><a class="black blue" href="python.php"> Programming with Python</a></li>
+                                                               <li><a class="black blue" href="Fundamentals_of_Electronics.php">Fundamentals of Electronics </a> </li>
+                                                               <li><a class="black blue" href="#">Softweare engineering</a> </li>
                                                                <li><a class="black blue" href="#">Mechanical engineering </a></li>
                                                                <li><a class="black blue" href="#">Data Analysis </a></li>
-                                                               <li><a class="black blue" href="#"> Programming with Python</a></li>
                                                                <li><a class="black blue" href="#">Data analysis using register </a></li>
                                                             </ul>
                                                          </div>
@@ -294,10 +295,12 @@ var panelsStyles = {"fullContainer":"body"};
                                                          <h3 class="widget-title">List of Courses</h3>
                                                          <div class=" megaWrapper">
                                                             <ul id="menu-about-courses" >
+                                                               <li><a class="black blue" href="Machine Learning.php">Machine Learning</a> </li>                                                               
+                                                               <li><a class="black blue" href="python.php"> Programming with Python</a></li>
+                                                               <li><a class="black blue" href="Fundamentals_of_Electronics.php">Fundamentals of Electronics </a> </li>
                                                                <li><a class="black blue" href="#">Softweare engineering</a> </li>
                                                                <li><a class="black blue" href="#">Mechanical engineering </a></li>
                                                                <li><a class="black blue" href="#">Data Analysis </a></li>
-                                                               <li><a class="black blue" href="#"> Programming with Python</a></li>
                                                                <li><a class="black blue" href="#">Data analysis using register </a></li>
                                                             </ul>
                                                          </div>
@@ -475,12 +478,10 @@ var panelsStyles = {"fullContainer":"body"};
                         </div>
                     </div>
                 </div>
-            </div>
-            
+            </div>     
         </div>
 <br><br><br>
-        
-<footer id="colophon" class="site-footer ">
+              <footer id="colophon" class="site-footer ">
                   <div class="footer">
                      <div class="container">
                         <div class="row">
@@ -595,7 +596,7 @@ var panelsStyles = {"fullContainer":"body"};
                         </div>
                      </div>
                   </div>
-               </footer>
+              </footer>
                <!-- #colophon -->
            
     <script type="text/javascript">jQuery(function ($) {
@@ -621,7 +622,7 @@ var panelsStyles = {"fullContainer":"body"};
     
   
     
-</section><div id="tp_chameleon_list_google_fonts"></div>      <script data-cfasync="false" type="text/javascript">
+</script><div id="tp_chameleon_list_google_fonts"></div>      <script data-cfasync="false" type="text/javascript">
         window.onload = function () {
           setTimeout(function () {
             var body = document.getElementById("thim-body"),

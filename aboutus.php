@@ -1,5 +1,3 @@
-<?php
-?>
 <!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/WebPage" lang="en-US" prefix="og: http://ogp.me/ns#">
 <head>
@@ -181,10 +179,12 @@ var panelsStyles = {"fullContainer":"body"};
                                                          <h3 class="widget-title">List of Courses</h3>
                                                          <div class=" megaWrapper">
                                                             <ul id="menu-about-courses" >
-                                                               <li><a class="black blue" href="#">Software engineering</a> </li>
+                                                               <li><a class="black blue" href="Machine Learning.php">Machine Learning</a> </li>                                                               
+                                                               <li><a class="black blue" href="python.php"> Programming with Python</a></li>
+                                                               <li><a class="black blue" href="Fundamentals_of_Electronics.php">Fundamentals of Electronics </a> </li>
+                                                               <li><a class="black blue" href="#">Softweare engineering</a> </li>
                                                                <li><a class="black blue" href="#">Mechanical engineering </a></li>
                                                                <li><a class="black blue" href="#">Data Analysis </a></li>
-                                                               <li><a class="black blue" href="#"> Programming with Python</a></li>
                                                                <li><a class="black blue" href="#">Data analysis using register </a></li>
                                                             </ul>
                                                          </div>
@@ -279,12 +279,20 @@ var panelsStyles = {"fullContainer":"body"};
                                              <p class="login-username">
                                                 <label for="thim_login">E-mail</label>
                                                 <input type="text" placeholder="E-mail" name="email" id="email" class="input" value="E-mail" size="20" />
-                                             </p><br>
+                                             </p>
                                              <p class="login-radio" align="left"><b>Rigester as :<t></b>
                                               <input type="radio" name="rigester" value="Student" checked> Student
                                               <input type="radio" name="rigester" value="Expert"> Expert
                                               <input type="radio" name="rigester" value="University"> University
-                                              </p><br>
+                                              </p>
+                                              <p class="login-username">
+                                                <label for="thim_login">City</label>
+                                                <input type="text" placeholder="City" name="City" id="City" class="input" value="" size="20" />
+                                             </p>
+                                             <p class="login-username">
+                                                <label for="thim_login">Phone no.</label>
+                                                <input type="text" placeholder="Phone no." name="Phone no" id="Phone no" class="input" value="" size="20" />
+                                             </p>
                                              <p class="login-password">
                                                 <label for="thim_pass">Password</label>
                                                 <input type="password" placeholder="Password" name="pwd" id="con-pass" class="input" value="Password" size="3" />
@@ -308,7 +316,7 @@ var panelsStyles = {"fullContainer":"body"};
                                           </div>
                                     </div>
                                  </div>
-                                 </header>
+                                 </li>
                                     
                                  
                                  <li class="menu-right">
@@ -366,10 +374,12 @@ var panelsStyles = {"fullContainer":"body"};
                                                          <h3 class="widget-title">List of Courses</h3>
                                                          <div class=" megaWrapper">
                                                             <ul id="menu-about-courses" >
+                                                               <li><a class="black blue" href="Machine Learning.php">Machine Learning</a> </li>                                                               
+                                                               <li><a class="black blue" href="python.php"> Programming with Python</a></li>
+                                                               <li><a class="black blue" href="Fundamentals_of_Electronics.php">Fundamentals of Electronics </a> </li>
                                                                <li><a class="black blue" href="#">Softweare engineering</a> </li>
                                                                <li><a class="black blue" href="#">Mechanical engineering </a></li>
                                                                <li><a class="black blue" href="#">Data Analysis </a></li>
-                                                               <li><a class="black blue" href="#"> Programming with Python</a></li>
                                                                <li><a class="black blue" href="#">Data analysis using register </a></li>
                                                             </ul>
                                                          </div>
@@ -972,7 +982,7 @@ var panelsStyles = {"fullContainer":"body"};
 		
 	
 		
-</div><div id="tp_chameleon_list_google_fonts"></div>			<script data-cfasync="false" type="text/javascript">
+</script><div id="tp_chameleon_list_google_fonts"></div>			<script data-cfasync="false" type="text/javascript">
 				window.onload = function () {
 					setTimeout(function () {
 						var body = document.getElementById("thim-body"),
