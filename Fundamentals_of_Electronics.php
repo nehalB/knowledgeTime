@@ -624,7 +624,7 @@ margin-left:0px;
                         <div class="widget clearfix">
                             <div class="post-media">
                                 <div class="entry">
-                                    <img src="upload/course_01.png" alt="" class="img-responsive">
+                                    <img src="upload/elec1.png" alt="" class="img-responsive">
                                 </div>
                             </div><!-- end media -->
                             <hr>
@@ -765,7 +765,7 @@ margin-left:0px;
                         <div class="course-list normal-list">
                             <div class="video-wrapper course-widget clearfix">
                                 <div class="post-media">
-                                    <video class="videoplayer" poster="upload/course_01.png" controls preload="none">
+                                    <video class="videoplayer" poster="upload/elec1.png" controls preload="none">
                                         <!-- MP4 for Safari, IE9, iPhone, iPad, Android, and Windows Phone 7 -->
                                         <source type="video/mp4" src="https://0.s3.envato.com/h264-video-previews/ec34ad1d-cba5-43a6-a1d0-a537b10e5879/759078.mp4" />
                                         <!-- WebM/VP8 for Firefox4, Opera, and Chrome -->
