@@ -1,5 +1,58 @@
+<?php
+
+error_reporting(0);
+session_start();
+include_once 'db_function.php';
+
+if(isset($_POST['signup']))
+{
+    $firstName = $_REQUEST['firstName'];
+    $email = $_REQUEST['email'];
+    $pass = $_REQUEST['pwd'];
+    $city = $_REQUEST['city'];
+    $pNumber = $_REQUEST['pNumber'];
+    $role_id = $_REQUEST['registerAs'];
+    /***************************** Step 1 : Case 1 ****************************/
+    //Add the new user information in the database
+    /*$result=executeQuery("select max(stdid) as std from student");
+    $r=mysql_fetch_array($result);
+    if(is_null($r['std']))
+        $newstd=1;
+    else
+        $newstd=$r['std']+1;
+*/
+    $result=executeQuery("SELECT email FROM users WHERE email=='$email'");
+
+    // $_GLOBALS['message']=$newstd;
+    if(empty($_REQUEST['firstName'])||empty ($_REQUEST['pwd'])||empty ($_REQUEST['email']))
+    {
+        $_GLOBALS['message']="Some of the required Fields are Empty";
+    }else if(mysql_num_rows($result)>0)
+    {
+        $_GLOBALS['message']="This Email has already been registered. Try with new Email address.";
+    }
+    else
+    {
+        $sql = "INSERT INTO users (name, email, password, role_id, city, phone)
+                VALUES ('$firstName', '$email', '$pass', '$role_id', '$city', '$pNumber')";
+
+        $result = executeQuery($sql);
+
+        if($result) {
+            $success = true;
+            $_GLOBALS['message'] = "Your account has been created successfully!";
+        }else {
+            $message = mysqli_error();
+            echo "<script type='text/javascript'>alert('failure');</script>";
+        }
+          closedb();
+    }
+}
+
+?>
 <!DOCTYPE html>
-<html itemscope itemtype="http://schema.org/WebPage" lang="en-US" prefix="og: http://ogp.me/ns#">
+<html itemscope itemtype="http://schema.org/WebPage" lang="en-US" prefix="og: http://ogp.me/ns#"
+      xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +63,7 @@
          var ajaxurl = "#/wp-admin/admin-ajax.php";
          /* ]]> */
       </script>
+       <script type="text/javascript" src="js/form-validations.js" ></script>
       <title>KnowledgeTime</title>
 
 <link rel="apple-touch-icon" sizes="180x180" href="logo/favicons/apple-touch-icon.png">
@@ -302,12 +356,9 @@ margin-left:0px;
                                   <li  class="thim-login-popup menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard"><a class="login" href="#">Login</span></a></li>
                                   <div id="thim-popup-login" class="has-shortcode">
                                     <div class="thim-login-container">
-                                       
-                                       
-                                       <br>        
                                        <div class="thim-login">
                                           <h2 class="title">Login</h2>
-                                          <form name="loginform" id="loginform" action="#/wp-login.php" method="post">
+                                          <form name="loginform" id="loginform" action="index.php" method="post">
                                              <p class="login-username">
                                                 <label for="thim_login">Username or email</label>
                                                 <input type="text" name="log" id="thim_login" class="input" value="" size="20" />
@@ -319,56 +370,53 @@ margin-left:0px;
                                              <a class="lost-pass-link" href="#/account/?action=lostpassword" title="Lost Password">Lost your password?</a>
                                              <p class="login-remember"><label><input name="rememberme" type="checkbox" id="rememberme" value="forever" /> Remember me</label></p>
                                              <p class="login-submit">
-                                                <input type="submit" name="wp-submit" id="wp-submit" class="button-primary" value="Login" />
-                                                <input type="hidden" name="redirect_to" value="#" />
-                                                <br><br>
+                                                <input type="submit" name="login" id="login" class="button-primary" value="Login" />
+                                            </p>    <br><br>
                                                <!--  <a class="" href="#thim-popup-login2" title="Lost Password">have no account?</a>
                                                  -->
                                               <aside id="login-popup-2" class=" widget widget_login-popup">
                               <div class="thim-widget-login-popup thim-widget-login-popup-base">
                                  <div id="" class="thim-link-login thim-login-popup1">
                                     <!-- <a class="register" href="#/account/?action=register">Register</a> -->
-                                    <a class="login logsize" href="#">Dont have an account?</a>
+                                    <a class="login logsize" href="#">Don't have an account?</a>
                                  </div>
+                                          </form>
                                  <div id="thim-popup-login1" class="has-shortcode">
                                     <div class="thim-login-container">
-                                       
-                                            
-                                       <div class="thim-login" align="center">
+                                          <div class="thim-login">
+                                              <?php
+                                                if($_GLOBALS['message']) {
+                                                  echo "<div class=\"alert-success\">".$_GLOBALS['message']."</div>";
+                                              }
+                                              ?>
                                           <h2 class="title" align="center">Register Now</h2>
-                                          <form name="loginform" id="loginform" action="#/wp-login.php" method="post">
-                                             <p class="login-username">
-                                                <label for="thim_login">Username</label>
-                                                <input type="text" placeholder="Username" name="Username" id="Username" class="input" value="" size="20" />
+                                          <form name="signupForm" id="signupForm"  action="index.php" method="post" onsubmit="return validateForm('signupForm')" >
+                                             <p class="login-username" align="left">
+
+                                                <input type="text" placeholder="First Name" name="firstName" id="firstName" class="input" onkeyup="isAlpha(this)" />
                                              </p>
-                                             <p class="login-username">
-                                                <label for="thim_login">E-mail</label>
-                                                <input type="text" placeholder="E-mail" name="email" id="email" class="input" value="E-mail" size="20" />
+                                             <p class="login-email" align="left">
+                                                <input type="text" placeholder="E-mail" name="email" id="email" class="input"  />
                                              </p>
                                              <p class="login-radio" align="left"><b>Rigester as :<t></b>
-                                              <input type="radio" name="rigester" value="Student" checked> Student
-                                              <input type="radio" name="rigester" value="Expert"> Expert
-                                              <input type="radio" name="rigester" value="University"> University
+                                              <input type="radio" name="registerAs" value="1" checked> Student
+                                              <input type="radio" name="registerAs" value="2"> Expert
+                                              <input type="radio" name="registerAs" value="3"> University
                                               </p>
-                                              <p class="login-username">
-                                                <label for="thim_login">City</label>
-                                                <input type="text" placeholder="City" name="City" id="City" class="input" value="" size="20" />
+                                              <p class="login-username input" align="left">
+                                                <input type="text" placeholder="City" name="city" id="city" class="input" onkeyup="isAlpha(this)" />
                                              </p>
-                                             <p class="login-username">
-                                                <label for="thim_login">Phone no.</label>
-                                                <input type="text" placeholder="Phone no." name="Phone no" id="Phone no" class="input" value="" size="20" />
+                                             <p class="login-name" align="left">
+                                                <input type="text" placeholder="Phone no." name="pNumber" id="pNumber" class="input" onkeyup="isNum(this)" />
                                              </p>
-                                             <p class="login-password">
-                                                <label for="thim_pass">Password</label>
-                                                <input type="password" placeholder="Password" name="pwd" id="con-pass" class="input" value="Password" size="3" />
+                                             <p class="login-password" align="left">
+                                                <input type="password" placeholder="Password" name="pwd" id="pwd" class="input" />
                                              </p>
-                                             <p class="login-password">
-                                                <label for="thim_pass">Confirm-Password</label>
-                                                <input type="password" placeholder="Confirm-Password"  name="con-pwd" id="con-pass" class="input" value="Confirm-Password" size="3" />
+                                             <p class="login-password" align="left">
+                                                <input type="password" placeholder="Confirm-Password"  name="confirmpwd" id="confirmpwd" class="input" />
                                              </p>
-                                             <p class="login-submit">
-                                                <input type="submit" name="wp-submit" id="wp-submit" class="button-primary" value="Sign-Up" />
-                                                <input type="hidden" name="redirect_to" value="#" />
+                                             <p class="login-submit" align="left">
+                                                <input type="submit" name="signup" id="signup" class="button-primary" value="Sign-Up" />
                                              </p>
                                           </form>
                                           </div>
@@ -376,20 +424,9 @@ margin-left:0px;
                                  </div>
                               </div>
                            </aside>
-                                             </p>
-                                          </form>
                                           </div>
                                     </div>
-                                 </div>
-                                 </li>
-                                 <!-- </div> -->
-                                 
-                              <!-- </div> -->
-                           </aside>
-
-
-
-                           
+                                 </header>
                                  
                                  <li class="menu-right">
                                     <ul>
