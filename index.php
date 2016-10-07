@@ -429,9 +429,9 @@ margin-left:0px;
                               </div>
                            </aside>
                                           </div>
-                                    </div>
-                                 </header>
-                                 
+                                  </div>
+								  </div>
+
                                  <li class="menu-right">
                                     <ul>
                                        <li id="courses-searching-2" class="widget widget_courses-searching">
@@ -453,9 +453,11 @@ margin-left:0px;
                                        </li>
                                     </ul>
                                  </li>
-                              </ul>
+
+             </ul>
                               <!--</div>-->           
                            </nav>
+
                            <div class="menu-mobile-effect navbar-toggle" data-effect="mobile-effect">
                               <span class="icon-bar"></span>
                               <span class="icon-bar"></span>
@@ -467,6 +469,8 @@ margin-left:0px;
                   </div>
                </div>
             </header>
+			</div>
+			</div>
             <!-- Mobile Menu-->
             <nav class="mobile-menu-container mobile-effect">
                <ul class="nav navbar-nav">
