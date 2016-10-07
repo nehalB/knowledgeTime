@@ -374,14 +374,16 @@ margin-left:0px;
                                             </p>    <br><br>
                                                <!--  <a class="" href="#thim-popup-login2" title="Lost Password">have no account?</a>
                                                  -->
-                                              <aside id="login-popup-2" class=" widget widget_login-popup">
+
+                                        <aside id="login-popup-2" class=" widget widget_login-popup">
                               <div class="thim-widget-login-popup thim-widget-login-popup-base">
                                  <div id="" class="thim-link-login thim-login-popup1">
                                     <!-- <a class="register" href="#/account/?action=register">Register</a> -->
                                     <a class="login logsize" href="#">Don't have an account?</a>
                                  </div>
                                           </form>
-                                 <div id="thim-popup-login1" class="has-shortcode">
+
+										  <div id="thim-popup-login1" class="has-shortcode">
                                     <div class="thim-login-container">
                                           <div class="thim-login">
                                               <?php
@@ -389,7 +391,8 @@ margin-left:0px;
                                                   echo "<div class=\"alert-success\">".$_GLOBALS['message']."</div>";
                                               }
                                               ?>
-                                          <h2 class="title" align="center">Register Now</h2>
+
+											  <h2 class="title" align="center">Register Now</h2>
                                           <form name="signupForm" id="signupForm"  action="index.php" method="post" onsubmit="return validateForm('signupForm')" >
                                              <p class="login-username" align="left">
 
@@ -418,6 +421,7 @@ margin-left:0px;
                                              <p class="login-submit" align="left">
                                                 <input type="submit" name="signup" id="signup" class="button-primary" value="Sign-Up" />
                                              </p>
+
                                           </form>
                                           </div>
                                     </div>
@@ -877,8 +881,6 @@ margin-left:0px;
                                  </div>
                                  <div id="thim-popup-login1" class="has-shortcode">
                                     <div class="thim-login-container">
-                                       
-                                            
                                        <div class="thim-login">
                                           <h2 class="title">Feedback Form</h2>
                                           <h5 align="center">Your feedback is important to us...</h5><br><br>
