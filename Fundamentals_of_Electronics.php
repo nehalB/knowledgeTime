@@ -398,16 +398,13 @@ margin-left:0px;
                                           </div>
                                     </div>
                                  </div>
-                                 </li>
+                                 </header>
                                  <!-- </div> -->
                                  
                               <!-- </div> -->
                            </aside>
 
 
-
-                           
-                                 
                                  <li class="menu-right">
                                     <ul>
                                        <li id="courses-searching-2" class="widget widget_courses-searching">
