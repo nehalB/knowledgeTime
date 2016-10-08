@@ -8,7 +8,7 @@ if(isset($_POST['signup']))
 {
     $firstName = $_REQUEST['firstName'];
     $email = $_REQUEST['email'];
-    $pass = $_REQUEST['pwd'];
+    $pass = password_hash($_REQUEST['pwd'], PASSWORD_DEFAULT);
     $city = $_REQUEST['city'];
     $pNumber = $_REQUEST['pNumber'];
     $role_id = $_REQUEST['registerAs'];
@@ -23,7 +23,6 @@ if(isset($_POST['signup']))
 */
     $result=executeQuery("SELECT email FROM users WHERE email=='$email'");
 
-    // $_GLOBALS['message']=$newstd;
     if(empty($_REQUEST['firstName'])||empty ($_REQUEST['pwd'])||empty ($_REQUEST['email']))
     {
         $_GLOBALS['message']="Some of the required Fields are Empty";
@@ -48,7 +47,33 @@ if(isset($_POST['signup']))
           closedb();
     }
 }
+else if($_POST['login']) {
 
+    $loginEmail = $_REQUEST['loginEmail'];
+    $loginPwd = $_REQUEST['loginpwd'];
+
+
+    $result=executeQuery("select * from users where email= $loginEmail");
+    if(mysql_num_rows($result)>0)
+    {
+        $r=mysqli_fetch_array($result,MYSQLI_ASSOC);
+        if(password_verify($loginPwd,$r['password']))
+        {
+            $_SESSION['email'] = $r['email'];
+            $_SESSION['username'] = $r['name'];
+            unset($_GLOBALS['message']);
+            header('Location: index.php');
+        }else
+        {
+            $_GLOBALS['message']="Check Your user name and Password.";
+        }
+    }
+    else
+    {
+        $_GLOBALS['message']="Check Your user name and Password.";
+    }
+    closedb();
+}
 ?>
 <!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/WebPage" lang="en-US" prefix="og: http://ogp.me/ns#"
@@ -94,11 +119,13 @@ if(isset($_POST['signup']))
       <link rel='stylesheet' id='pmpro_frontend-css'  href='css/frontend.css' type='text/css' media='screen' />
       <link rel='stylesheet' id='pmpro_frontend-css'  href='css/menu.css' type='text/css' media='screen' />
       <link rel='stylesheet' id='pmpro_print-css'  href='css/print.css' type='text/css' media='print' />
-      <link rel='stylesheet'   href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css' type='text/css' media='all' />
+      <link rel='stylesheet' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css' type='text/css' media='all' />
       <link rel='stylesheet' id='learn-press-css'  href='css/learnpress.css' type='text/css' media='all' />
       <link rel='stylesheet' id='rs-plugin-settings-css'  href='css/settings.css' type='text/css' media='all' />
       <link rel='stylesheet' id='rs-plugin-settings-css'  href='css/main.css' type='text/css' media='all' />
-      <style id='rs-plugin-settings-inline-css' type='text/css'>
+       <link rel="stylesheet" href="css/backend.css" type="text/css"/>
+       <script type='text/javascript' src='js/backendUtility.js'></script>
+       <style id='rs-plugin-settings-inline-css' type='text/css'>
           #rs-demo-id {}
       </style>
 
@@ -251,7 +278,17 @@ margin-left:0px;
     </style>
    </head>
    <body class="home page page-id-12 page-template page-template-page-templates page-template-homepage page-template-page-templateshomepage-php  thim-body-preload siteorigin-panels siteorigin-panels-home pmpro-body-has-access group-blog" id="thim-body">
-      <div id="preload">
+
+   <div id="snackbar"><?php echo $_GLOBALS['message']; ?></div>
+
+   <?php
+
+   if($_GLOBALS['message']) {
+       echo "<script type='text/javascript'>myFunction();</script>";
+   }
+   ?>
+
+   <div id="preload">
          <div class="cssload-loader">
             <div class="cssload-inner cssload-one"></div>
             <div class="cssload-inner cssload-two"></div>
@@ -353,86 +390,133 @@ margin-left:0px;
                                  
                                  <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_right standard"><a href="#/blog/"><span data-hover="Blog">Blog</span></a></li>
                                  <li  class="menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard"><a href="contact_us.php">Contact us</span></a></li>
-                                  <li  class="thim-login-popup menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard"><a class="login" href="#">Login</span></a></li>
+
+<?php
+
+if(!$_SESSION['email']){
+
+?>
+
+
+                                  <li class="thim-login-popup menu-item menu-item-type-post_type menu-item-object-page drop_to_left standard">
+                                      <a class="login" href="#">Login</span></a></li>
                                   <div id="thim-popup-login" class="has-shortcode">
-                                    <div class="thim-login-container">
-                                       <div class="thim-login">
-                                          <h2 class="title">Login</h2>
-                                          <form name="loginform" id="loginform" action="index.php" method="post">
-                                             <p class="login-username">
-                                                <label for="thim_login">Username or email</label>
-                                                <input type="text" name="log" id="thim_login" class="input" value="" size="20" />
-                                             </p>
-                                             <p class="login-password">
-                                                <label for="thim_pass">Password</label>
-                                                <input type="password" name="pwd" id="thim_pass" class="input" value="" size="20" />
-                                             </p>
-                                             <a class="lost-pass-link" href="#/account/?action=lostpassword" title="Lost Password">Lost your password?</a>
-                                             <p class="login-remember"><label><input name="rememberme" type="checkbox" id="rememberme" value="forever" /> Remember me</label></p>
-                                             <p class="login-submit">
-                                                <input type="submit" name="login" id="login" class="button-primary" value="Login" />
-                                            </p>    <br><br>
-                                               <!--  <a class="" href="#thim-popup-login2" title="Lost Password">have no account?</a>
-                                                 -->
-
-                                        <aside id="login-popup-2" class=" widget widget_login-popup">
-                              <div class="thim-widget-login-popup thim-widget-login-popup-base">
-                                 <div id="" class="thim-link-login thim-login-popup1">
-                                    <!-- <a class="register" href="#/account/?action=register">Register</a> -->
-                                    <a class="login logsize" href="#">Don't have an account?</a>
-                                 </div>
-                                          </form>
-
-										  <div id="thim-popup-login1" class="has-shortcode">
-                                    <div class="thim-login-container">
+                                      <div class="thim-login-container">
                                           <div class="thim-login">
-                                              <?php
-                                                if($_GLOBALS['message']) {
-                                                  echo "<div class=\"alert-success\">".$_GLOBALS['message']."</div>";
-                                              }
-                                              ?>
+                                              <h2 class="title">Login</h2>
+                                              <form name="loginform" id="loginform" action="index.php" method="post">
+                                                  <p class="login-username">
+                                                      <label for="thim_login">Email</label>
+                                                      <input type="text" name="loginEmail" id="thim_login" class="input"
+                                                             value="" size="20"/>
+                                                  </p>
+                                                  <p class="login-password">
+                                                      <label for="thim_pass">Password</label>
+                                                      <input type="password" name="loginpwd" id="thim_pass"
+                                                             class="input" value="" size="20"/>
+                                                  </p>
+                                                  <a class="lost-pass-link" href="#/account/?action=lostpassword"
+                                                     title="Lost Password">Lost your password?</a>
+                                                  <p class="login-remember"><label><input name="rememberme"
+                                                                                          type="checkbox"
+                                                                                          id="rememberme"
+                                                                                          value="forever"/> Remember me</label>
+                                                  </p>
+                                                  <p class="login-submit">
+                                                      <input type="submit" name="login" id="login"
+                                                             class="button-primary" value="Login"/>
+                                                  </p>    <br><br>
+                                                  <!--  <a class="" href="#thim-popup-login2" title="Lost Password">have no account?</a>
+                                                    -->
 
-											  <h2 class="title" align="center">Register Now</h2>
-                                          <form name="signupForm" id="signupForm"  action="index.php" method="post" onsubmit="return validateForm('signupForm')" >
-                                             <p class="login-username" align="left">
+                                                  <aside id="login-popup-2" class=" widget widget_login-popup">
+                                                      <div class="thim-widget-login-popup thim-widget-login-popup-base">
+                                                          <div id="" class="thim-link-login thim-login-popup1">
+                                                              <!-- <a class="register" href="#/account/?action=register">Register</a> -->
+                                                              <a class="login logsize" href="#">Don't have an
+                                                                  account?</a>
+                                                          </div>
+                                              </form>
 
-                                                <input type="text" placeholder="First Name" name="firstName" id="firstName" class="input" onkeyup="isAlpha(this)" />
-                                             </p>
-                                             <p class="login-email" align="left">
-                                                <input type="text" placeholder="E-mail" name="email" id="email" class="input"  />
-                                             </p>
-                                             <p class="login-radio" align="left"><b>Rigester as :<t></b>
-                                              <input type="radio" name="registerAs" value="1" checked> Student
-                                              <input type="radio" name="registerAs" value="2"> Expert
-                                              <input type="radio" name="registerAs" value="3"> University
-                                              </p>
-                                              <p class="login-username input" align="left">
-                                                <input type="text" placeholder="City" name="city" id="city" class="input" onkeyup="isAlpha(this)" />
-                                             </p>
-                                             <p class="login-name" align="left">
-                                                <input type="text" placeholder="Phone no." name="pNumber" id="pNumber" class="input" onkeyup="isNum(this)" />
-                                             </p>
-                                             <p class="login-password" align="left">
-                                                <input type="password" placeholder="Password" name="pwd" id="pwd" class="input" />
-                                             </p>
-                                             <p class="login-password" align="left">
-                                                <input type="password" placeholder="Confirm-Password"  name="confirmpwd" id="confirmpwd" class="input" />
-                                             </p>
-                                             <p class="login-submit" align="left">
-                                                <input type="submit" name="signup" id="signup" class="button-primary" value="Sign-Up" />
-                                             </p>
+                                              <div id="thim-popup-login1" class="has-shortcode">
+                                                  <div class="thim-login-container">
+                                                      <div class="thim-login">
 
-                                          </form>
+                                                          <h2 class="title" align="center">Register Now</h2>
+                                                          <form name="signupForm" id="signupForm" action="index.php"
+                                                                method="post"
+                                                                onsubmit="return (validateForm('signupForm'))">
+
+
+                                                              <p class="login-username" align="left">
+
+                                                                  <input type="text" placeholder="First Name"
+                                                                         name="firstName" id="firstName" class="input"
+                                                                         onkeyup="isAlpha(this)"/>
+                                                              </p>
+                                                              <p class="login-email" align="left">
+                                                                  <input type="text" placeholder="E-mail" name="email"
+                                                                         id="email" class="input"/>
+                                                              </p>
+                                                              <p class="login-radio" align="left"><b>Rigester as :
+                                                                      <t>
+                                                                  </b>
+                                                                  <input type="radio" name="registerAs" value="1"
+                                                                         checked> Student
+                                                                  <input type="radio" name="registerAs" value="2">
+                                                                  Expert
+                                                                  <input type="radio" name="registerAs" value="3">
+                                                                  University
+                                                              </p>
+                                                              <p class="login-username input" align="left">
+                                                                  <input type="text" placeholder="City" name="city"
+                                                                         id="city" class="input"
+                                                                         onkeyup="isAlpha(this)"/>
+                                                              </p>
+                                                              <p class="login-name" align="left">
+                                                                  <input type="text" placeholder="Phone no."
+                                                                         name="pNumber" id="pNumber" class="input"
+                                                                         onkeyup="isNum(this)"/>
+                                                              </p>
+                                                              <p class="login-password" align="left">
+                                                                  <input type="password" placeholder="Password"
+                                                                         name="pwd" id="pwd" class="input"/>
+                                                              </p>
+                                                              <p class="login-password" align="left">
+                                                                  <input type="password" placeholder="Confirm-Password"
+                                                                         name="confirmpwd" id="confirmpwd"
+                                                                         class="input"/>
+                                                              </p>
+                                                              <p class="login-submit" align="left">
+                                                                  <input type="submit" name="signup" id="signup"
+                                                                         class="button-primary" value="Sign-Up"/>
+                                                              </p>
+
+                                                          </form>
+                                                      </div>
+                                                  </div>
+                                              </div>
                                           </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </aside>
-                                          </div>
+                                          </aside>
+                                      </div>
                                   </div>
-								  </div>
+                        </div>
+                         <?php
+                         }
+else {
+    ?>
+    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children drop_to_right standard">
+        <a href="#"><span data-hover="Events"><?php echo $_SESSION['username']; ?></span></a>
+        <ul class="sub-menu">
+            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#/event-account/">Logout</a></li>
+        </ul>
+    </li>
+    <?php
+}
+?>
 
-                                 <li class="menu-right">
+
+                         <li class="menu-right">
                                     <ul>
                                        <li id="courses-searching-2" class="widget widget_courses-searching">
                                           <div class="thim-widget-courses-searching thim-widget-courses-searching-base">
@@ -455,7 +539,6 @@ margin-left:0px;
                                  </li>
 
              </ul>
-                              <!--</div>-->           
                            </nav>
 
                            <div class="menu-mobile-effect navbar-toggle" data-effect="mobile-effect">
