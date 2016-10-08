@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - knowledgetimedb@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="knowledgetimedb">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="information_schema"/>
+    <schema id="3" name="mysql"/>
+    <schema id="4" name="performance_schema"/>
+    <schema id="5" name="sys"/>
+    <table id="6" parent="1" name="role"/>
+    <table id="7" parent="1" name="users"/>
+    <column id="8" parent="6" name="role_id">
+      <mandatory>1</mandatory>
+      <data-type>int(1)|0</data-type>
+    </column>
+    <column id="9" parent="6" name="role_name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <key id="10" parent="6" name="PRIMARY">
+      <columns>role_id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="11" parent="7" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="12" parent="7" name="name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="13" parent="7" name="email">
+      <mandatory>1</mandatory>
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="14" parent="7" name="password">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="15" parent="7" name="role_id">
+      <mandatory>1</mandatory>
+      <data-type>int(1)|0</data-type>
+    </column>
+    <column id="16" parent="7" name="city">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="17" parent="7" name="phone">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="18" parent="7" name="email_activation">
+      <data-type>tinyint(1)|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <index id="19" parent="7" name="email">
+      <columns>email</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+    </index>
+    <index id="20" parent="7" name="role___fk">
+      <columns>role_id</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="21" parent="7" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <key id="22" parent="7" name="email">
+      <columns>email</columns>
+      <underlying-index>email</underlying-index>
+    </key>
+  </database-model>
+</dataSource>
