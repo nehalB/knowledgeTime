@@ -306,18 +306,14 @@ var panelsStyles = {"fullContainer":"body"};
                                                 <input type="hidden" name="redirect_to" value="#" />
                                              </p>
                                           </form>
-                                          </div>
+                                       </div>
                                     </div>
                                  </div>
-                              </div>
-                           </aside>
-                                             </p>
-                                          </form>
-                                          </div>
-                                    </div>
-                                 </div>
-                                 </li>
-                                    
+                        </div>
+                         </aside>
+                     </div>
+                  </div>
+               </div>
                                  
                                  <li class="menu-right">
                                     <ul>
@@ -340,7 +336,7 @@ var panelsStyles = {"fullContainer":"body"};
                                        </li>
                                     </ul>
                                  </li>
-                              </ul>
+                              </header>
                               <!--</div>-->           
                            </nav>
                            <div class="menu-mobile-effect navbar-toggle" data-effect="mobile-effect">
@@ -354,7 +350,10 @@ var panelsStyles = {"fullContainer":"body"};
                   </div>
                </div>
             </header>
-		<!-- Mobile Menu-->
+    </div>
+    </div>
+
+    <!-- Mobile Menu-->
 		<nav class="mobile-menu-container mobile-effect">
 			<ul class="nav navbar-nav">
 	     <li  class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children drop_to_right multicolumn">
@@ -982,7 +981,7 @@ var panelsStyles = {"fullContainer":"body"};
 		
 	
 		
-</script><div id="tp_chameleon_list_google_fonts"></div>			<script data-cfasync="false" type="text/javascript">
+</div><div id="tp_chameleon_list_google_fonts"></div>			<script data-cfasync="false" type="text/javascript">
 				window.onload = function () {
 					setTimeout(function () {
 						var body = document.getElementById("thim-body"),
